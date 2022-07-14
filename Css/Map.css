@@ -22,8 +22,12 @@ BG{
     display: flex;
 }
 .connn{
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
     margin: auto;
+    border: solid 3px rgb(58, 216, 66);
 }
 .MapEatBtn{
     position: relative;
