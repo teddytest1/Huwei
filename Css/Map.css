@@ -63,3 +63,15 @@ BG{
     height: 100%;
     /* border: solid 1px rgb(190, 26, 26); */
 }
+input {
+    border: 0;
+    background-color: #fff;;
+    color: #003c9d;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  input:hover {
+    color: #fff;
+    background-color: #e967bd;
+    border: 2px #fff solid;
+  }
