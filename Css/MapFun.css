@@ -16,7 +16,8 @@
 .button {
   position: relative;
   padding-top: 40%;
-  text-align: right;
+  padding-left: 82%;
+  /* text-align: right; */
   border: solid 5px rgb(79, 31, 192);
 }
 input {
