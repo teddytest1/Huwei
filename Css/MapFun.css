@@ -15,19 +15,19 @@
 }
 .button {
   position: relative;
-  margin-top: 43%;
-  margin: auto;
+  padding-top: 40%;
+  text-align: right;
   border: solid 5px rgb(79, 31, 192);
 }
 input {
-    border: 0;
-    background-color: #fff;;
-    color: #003c9d;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  input:hover {
-    color: #fff;
-    background-color: #003c9d;
-    border: 2px #003c9d solid;
-  }
+  border: 0;
+  background-color: #fff;
+  color: #003c9d;
+  border-radius: 50px;
+  cursor: pointer;
+}
+input:hover {
+  color: #fff;
+  background-color: #003c9d;
+  border: 2px #003c9d solid;
+}
