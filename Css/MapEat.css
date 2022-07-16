@@ -4,20 +4,20 @@
     height: 100%;
     display: flex;
     margin: auto;
-    border: solid 10px rgb(0, 0, 0);
+    /* border: solid 10px rgb(0, 0, 0); */
   }
   .content {
     width: 60%;
     height: 80%;
     margin: auto;
     text-align: center;
-    border: solid 3px rgb(189, 49, 49);
+    /* border: solid 3px rgb(189, 49, 49); */
   }
   .button {
     position: relative;
     padding-top: 40%;
     padding-left: 82%;
-    border: solid 5px rgb(79, 31, 192);
+    /* border: solid 5px rgb(79, 31, 192); */
   }
   input {
     border: 0;
