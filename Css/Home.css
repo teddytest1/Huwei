@@ -12,7 +12,6 @@ body{
     background-image: url("../Photo/IMG_2104.JPG");
     background-size: cover;
     display: flex;
-    
 }
 .content{
     position: relative;
