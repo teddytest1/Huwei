@@ -6,6 +6,7 @@ body{
     height: 100%;
     background-image: url("../Photo/IMG_2104.JPG");
     background-size: cover;
+    background-image: no-repeat;
 }
 .BG{
     position: absolute;
