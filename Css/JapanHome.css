@@ -5,14 +5,11 @@ body{
     width: 100%;
     height: 100%;
 }
-.BG{
-    position: absolute;
+.BGG{
     width: 100%;
-    height: 100%;
-    background-image: url("../Photo/IMG_2104.JPG");
-    background-size: cover;
+    height: 20%;
     display: flex;
 }
-.BGG{
+.navbar navbar-light bg-light px-3{
     display: flex;
 }
