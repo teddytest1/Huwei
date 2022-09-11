@@ -7,18 +7,15 @@
   /* border: solid 10px rgb(0, 0, 0); */
 }
 .content {
+  background-image: url("../Photo/justmap.jpg");
+  position: relative;
   width: 60%;
-  height: 80%;
+  height: 83%;
   margin: auto;
   text-align: center;
+  background-size: contain;
+  background-repeat:no-repeat;
   /* border: solid 3px rgb(189, 49, 49); */
-}
-.button {
-  position: relative;
-  padding-top: 40%;
-  padding-left: 82%;
-  /* text-align: right; */
-  /* border: solid 5px rgb(79, 31, 192); */
 }
 input {
   border: 0;
@@ -32,4 +29,61 @@ input:hover {
   background-color: #003c9d;
   border: 2px #003c9d solid;
 }
-
+.Japanhome{
+  position: relative;
+  left: 45%;
+  top: 82%;
+  width:12%;
+  height:12%;
+  text-align: center;
+  /* border: solid 3px rgb(189, 49, 49); */
+}
+.Icon{
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* border: solid 10px rgb(146, 25, 25);  */
+}
+.Movie{
+  position: relative;
+  left: 47%;
+  top: 9%;
+  width:12%;
+  height:12%;
+  text-align: center;
+  /* border: solid 3px rgb(189, 49, 49); */
+}
+.Huweisugar{
+  position: relative;
+  left: 79%;
+  top: 40%;
+  width:12%;
+  height:12%;
+  text-align: center;
+  /* border: solid 3px rgb(189, 49, 49); */
+}
+.Bridge{
+  position: relative;
+  left: 66%;
+  top: 49%;
+  width:12%;
+  height:12%;
+  text-align: center;
+  /* border: solid 3px rgb(189, 49, 49); */
+}
+.Huwei1{
+  position: relative;
+  left:63%;
+  top:4%;
+  width:12%;
+  height:12%;
+  text-align: center;
+  /* border: solid 3px rgb(189, 49, 49); */
+}
+.button {
+  position: relative;
+  top: 20%;
+  left: 60%;
+  /* text-align: right; */
+   /* border: solid 5px rgb(79, 31, 192);  */
+}

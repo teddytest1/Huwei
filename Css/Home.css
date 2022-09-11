@@ -16,7 +16,7 @@ body{
 .content{
     position: relative;
     margin: auto;
-    /* border: solid 1px white; */
+    border: solid 1px white; 
 }
 .LogoBtn{
     position: relative;
@@ -33,4 +33,3 @@ body{
     /* border: solid 1px white; */
     text-align: center;
 }
-
