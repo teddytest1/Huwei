@@ -1,41 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <head>
     <meta charset="UTF-8" />
     <title>日式宿舍群</title>
+    
+    <link href="css/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet" />
+    
+    <link href="css/Waves-0.7.6/dist/waves.min.css" rel="stylesheet" />
+    
+    <style type="text/css">
+          html {
+            scroll-behavior: smooth;
+        }
+
+        
+        a.my-btn-goTop {
+            position: fixed;
+            
+            bottom: -50px;
+            right: 25px;
+            z-index: 999999999;
+            
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px; 
+           
+            text-align: center;
+            background-color: #197C9D; 
+            font-size: 1.6rem; 
+            color: #fff;
+            border-radius: 50%;
+            transition: 0.3s;
+            opacity: 0; 
+        }
+            
+          
+            a.my-btn-goTop.show {
+                opacity: 1; 
+                bottom: 25px;
+            }
+
+
+    </style>
     <link rel="stylesheet" type="text/css" href="../Css/JapanHome.css" />
   </head>
   <body>
-    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-      <a class="navbar-brand" href="#">日式宿舍群</a>
-      <div class="BGG">
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading1">歷史</a>
+    <nav id="navbar-example2" class="nav0">
+      <a class="navbar-brand" href="#">日式宿舍群</a> 
+      <ul class="nav1">
+        <a href="../Html/Map.html">
+          <img src="../Photo/Slogo.png"
+           width="180" height="120"style="position:absolute;top:-10px;left: 12px;px;cursor:url('../Photo/sssice.png'),auto;"></a>
+        </a>
+        <li class="button1">
+          <a class="nav-link" href="#P1">歷史</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">內部</a>
+        <li class="button1">
+          <a class="nav-link" href="#P2">內部</a>
         </li>
-            <li><a class="dropdown-item" href="#scrollspyHeading3">資訊</a></li>
-            <li><a class="dropdown-item" href="#scrollspyHeading4">home</a></li>
+        <li class="button1">
+          <a class="nav-link" href="#P3">資訊</a>
+        </li>
+            <li class="button1">
+              <a class="home" href="#P4">home</a></li>
           </ul>
         </li>
       </ul>
-      </div>
     </nav>
+    <a href="../Photo/onlymap.jpg">
+      <img src="../Photo/onlymap.jpg" width="100%" height="100%" />
+    </a>
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-      <h4 id="scrollspyHeading1">歷史文案</h4>
+      <h4 id="P1">歷史文案</h4>
       <p>日式宿舍隨著當時虎尾糖廠的興建而興建的，已經有百年歷史，在全盛時期有60間宿舍，四周土地持續興建火車站、診所、理髮廳、公園、學校、醫務所、澡堂、福利社，是當時完整且自給自足的小型都市。
         由於木製建築容易發生火災，最後剩下11棟。宿舍連續的毀壞，也引起當地人士的抗議及保留聲四起，所以宿舍四周架起透空圍籬的隔離保護動作。由於宿舍的主管單位為虎尾糖廠，所以糖廠的高層主管也受到地方人士的抨擊，而目前虎尾糖廠是外包保全公司定期巡邏。
       目前有3棟宿舍被列入雲林縣古蹟保存，分別是第一公差宿舍、第三公差宿舍及廠長宿舍，都相鄰於民生九路上，現在還有人居住在內。公差宿舍為日治時期糖廠的招待所，平時提供員工出差、短暫住宿的地方。</p>
-      <h4 id="scrollspyHeading2">互動圖片</h4>
+      <h4 id="P2">互動圖片</h4>
       <p>圖</p>
-      <h4 id="scrollspyHeading3">景點資訊</h4>
+      <h4 id="P3">景點資訊</h4>
       <p></p>
-      <h4 id="scrollspyHeading4">地址</h4>
+      <h4 id="P4">地址</h4>
       <p>632632 雲林縣虎尾鎮民主五路</p>
-      <h4 id="scrollspyHeading5">營業時間</h4>
+      <h4 id="P5">營業時間</h4>
       <p>周一至周日</p>
     </div>
+    
+    <a href="#" class="my-btn-goTop"><i class="zmdi zmdi-long-arrow-up"></i></a>
+
+    <script src="js/jQuery.js" ></script>
+    <script src="Waves-0.7.6/dist/waves.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+           window.onscroll = function () {
+                const px = 100;
+                if (document.body.scrollTop > px || document.documentElement.scrollTop > px) {
+                    $("a.my-btn-goTop").addClass("show");
+
+                } else {
+                    $("a.my-btn-goTop").removeClass("show");
+                }
+            }; 
+        });
+    </script>
+    <script type="text/javascript">
+        Waves.attach('.my-btn-goTop', []);
+        Waves.init();
+    </script>
   </body>
 </html>
