@@ -9,43 +9,46 @@
     
     <link href="css/Waves-0.7.6/dist/waves.min.css" rel="stylesheet" />
     
-    <style type="text/css">
-          html {
-            scroll-behavior: smooth;
-        }
-
-        
-        a.my-btn-goTop {
-            position: fixed;
-            
-            bottom: -50px;
-            right: 25px;
-            z-index: 999999999;
-            
-            display: inline-block;
-            width: 50px;
-            height: 50px;
-            line-height: 50px; 
-           
-            text-align: center;
-            background-color: #197C9D; 
-            font-size: 1.6rem; 
-            color: #fff;
-            border-radius: 50%;
-            transition: 0.3s;
-            opacity: 0; 
-        }
-            
-          
-            a.my-btn-goTop.show {
-                opacity: 1; 
-                bottom: 25px;
-            }
-
-
-    </style>
     <link rel="stylesheet" type="text/css" href="../Css/JapanHome.css" />
+
+    <!-- 輪姦器 -->
+    <script>
+      var cot=0;
+      function nex(){
+      if(cot<=2){
+      $('.imgs img').eq(cot).animate({'margin-left':'-900px'},500);
+      cot++;
+      }
+      }
+      function pre(){
+      if(cot>0){
+      cot--;
+      $('.imgs img').eq(cot).animate({'margin-left':'0'},500);
+      }
+      }
+      </script>
+     <!-- 輪姦器 -->
+
   </head>
+
+   <!-- 滾動導覽 -->
+  <button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+ <!-- 滾動導覽 -->
+
   <body>
     <nav id="navbar-example2" class="nav0">
       <a class="navbar-brand" href="#">日式宿舍群</a> 
@@ -69,6 +72,22 @@
         </li>
       </ul>
     </nav>
+    <!-- 輪姦器 -->
+    <div style="width:900px;margin:auto;overflow:hidden"> 
+      <div class="imgs" style="width:50000px;">
+      <img src="../Photo/bridge.png" width="900px" height="600px"/>     
+          <img src="../Photo/huwei1.png" width="900px" height="600px"/>
+      <img src="../Photo/huweisugar.png" width="900px" height="600px"/>
+      <img src="../Photo/japanhome.png" width="900px" height="600px"/>
+      <img src="../Photo/movie.png"width="900px" height="600px" />
+      <img src="6.jpg" />
+      </div>
+      <div>
+      <div onclick="pre()" style="float:left;cursor:pointer">上一頁</div>
+      <div onclick="nex()" style="float:right;cursor:pointer">下一頁</div>
+      </div>
+      </div>
+<!-- 輪姦器 -->
     <a href="../Photo/onlymap.jpg">
       <img src="../Photo/onlymap.jpg" width="100%" height="100%" />
     </a>
@@ -89,6 +108,7 @@
     
     <a href="#" class="my-btn-goTop"><i class="zmdi zmdi-long-arrow-up"></i></a>
 
+    <!-- 滾動導覽 -->
     <script src="js/jQuery.js" ></script>
     <script src="Waves-0.7.6/dist/waves.min.js"></script>
     <script type="text/javascript">
@@ -108,5 +128,7 @@
         Waves.attach('.my-btn-goTop', []);
         Waves.init();
     </script>
+  <!-- 滾動導覽 -->
+
   </body>
 </html>
