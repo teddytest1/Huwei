@@ -1,38 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>地圖</title>
-    <link rel="stylesheet" type="text/css" href="../Css/Map.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../Css/map.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
   </head>
   <body>
-    <div class="BG">
-      <div class="content">
-        <div class="connn">
-          <div class="MapEatBtn">
-            <a href="../Html/MapEat.html">
-              <img src="../Photo/eatmap.jpg" width="750px" height="500px"style="cursor:url('../Photo/sssice.png'),auto;" />
-            </a>
+    <div class="bg">
+      
+      <div class="logo">
+        <img src="../Photo/slogo.png"width="300px" height="250px" >
+        <div class="btngp">
+        <button id="btn1"type=" button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="123">
+          虎尾糖廠
+        </button>
+        <button id="btn1"type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="虎尾同心公園由英國人規劃設計，日本人施工完成，是糖廠提供員工休息、並做為工廠及宿舍群中間的綠色隔離帶。「綠色隔離帶」的概念與日本西化有關。">
+          同心公園
+        </button>
+        <button id="btn1"type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+          虎尾驛
+        </button>
+        <button id="btn1"type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="虎尾糖廠鐵橋，又稱為虎尾鐵橋、會社鐵橋、虎溪鐵橋，舊名為番薯莊板仔橋，在台灣日治時期興建，並在國民政府時代延建，為雲林縣縣定古蹟，目前屬於台灣糖業公司，作為糖業鐵路，曾經倒塌過，在2015年4月才重建恢復。">
+          虎尾鐵橋
+        </button>
+        <button id="btn1"type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="日式宿舍隨著當時虎尾糖廠的興建而興建的，已經有百年歷史，在全盛時期有60間宿舍，四周土地持續興建火車站、診所、理髮廳、公園、學校、醫務所、澡堂、福利社，是當時完整且自給自足的小型都市。">
+          日式宿舍群
+          <a href="../Html/test.html"></a>
+        </button>
+        <div class="icon1">
+          <img src="../Photo/bridgeicon.png"width="100px" height="110px">
           </div>
-          <div class="MapFunBtn">
-            <a href="../Html/MapFun.html">
-              <img src="../Photo/funmap.jpg" width="750px" height="500px" style="cursor:url('../Photo/sssice.png'),auto;" />
-            </a>
+          <div class="icon2">
+            <img src="../Photo/hearticon.png"width="120px" height="120px">
           </div>
-        </div>
-        <div class="buttoncontent">
-          <div class="button1">
-            <form action="../Html/MapEat.html">
-              <input type="submit" value="吃喝" style="font-size: 50px" />
-            </form>
+          <div class="icon3">
+            <img src="../Photo/huwei1icon.png"width="150px" height="150px">
           </div>
-          <div class="button2">
-            <form action="../Html/MapFun.html">
-              <input type="submit" value="玩樂" style="font-size: 50px" />
-            </form>
+          <div class="icon4">
+            <img src="../Photo/sugaricon.png"width="150px" height="150px">
+          </div>
+          <div class="icon5">
+            <img src="../Photo/sugaricon.png"width="100px" height="100px">
           </div>
         </div>
       </div>
-    </div>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+    <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })</script>
   </body>
 </html>
