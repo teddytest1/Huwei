@@ -161,7 +161,7 @@
       height: 400px;
       margin-top: -500px;
       margin-left: 0px;
-      border: solid 1px black;
+      /* border: solid 1px black; */
   }
   .Content{
       width: calc(75% - 20px);
