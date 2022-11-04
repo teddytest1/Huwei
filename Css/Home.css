@@ -16,14 +16,13 @@ body{
 .content{
   position: relative;
   margin: auto;
-   /* border: solid 1px white;  */
+  margin-top:3%;
+   /* border: solid 1px white; */
 }
 .LogoBtn{
   position: relative;
   width:50%;
   height: 50%;
-  margin: 10%;
-  
 }
 .LogoBtn:hover{
   transform: scale(1.1);
