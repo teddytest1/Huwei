@@ -122,9 +122,9 @@
     text-align: center;
   }
   .Photo {
-    /* border: solid 1px black; */
-    width: 350px;
-    height: 250px;
+     border: solid 1px black; 
+    width: 900px;
+    height: 680px;
     margin-right: 20px;
   }
   .Words {
