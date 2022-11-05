@@ -25,6 +25,13 @@ color: black;
 border: none;
 font-size: 40px;
 }
+#btn1:hover::after{
+position: absolute;
+content:"";
+background-image: url(../Photo/heart.png);  
+width: 100px;
+height: 100px;
+}
 .btngp{
     width: 200px;
     border: solid 1px black; 
