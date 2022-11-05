@@ -1,0 +1,11 @@
+@font-face {
+    font-family: '123';
+    src:url('../Font/王漢宗特黑體繁.ttf') format("opentype");
+  }
+.bc{
+    font-size: 72px;
+}
+.abc{
+    font-family: '123';
+    font-size: 72px;
+}

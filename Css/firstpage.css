@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'dick';
+  src:url('../Font/王漢宗特黑體繁.ttf') format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -70,14 +74,15 @@ body {
   background-color: #fff;
 }
 .Nav-Menu a {
+  text-shadow:0.1em 0.1em 0.2em black ;
   margin: 0;
   padding: 0;
   margin-left: 16px;
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 35px;
+  font-weight: 1000;
   padding: 4px;
 }
 .Nav-Menu a:hover {
@@ -262,10 +267,11 @@ body {
 
 .Words {
   position: relative;
-  font-weight: 900;
+  font-weight: ;
   font-size: 100px;
   /* border: solid 1px black; */
   width: 100%;
+  font-family: 'dick';
 }
 
 .Second {
