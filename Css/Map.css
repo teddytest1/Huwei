@@ -36,6 +36,11 @@
   width: 100px;
   height: 100px;
 }
+#btn1:hover{
+  transform: scale(1.2);
+  color: #afa790;
+}
+
 
 .BtnBox {
   margin-left: 20px;
