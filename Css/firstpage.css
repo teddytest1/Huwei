@@ -90,12 +90,18 @@ body {
   scale: 2.5;
   border-bottom: 2px solid rgb(253, 253, 253);
 }
+.Nav-Menu a:hover:nth-child(5){
+  color: rgb(0, 0, 0) !important;
+  border-bottom: 2px solid transparent;
+}
+
 .sticky {
   background-color: rgb(36, 37, 59);
 }
 .sticky .Nav-Menu a {
   color: rgb(254, 254, 254);
 }
+
 .sticky .Menu-toggler span {
   background-color: rgb(255, 254, 254);
 }
@@ -113,6 +119,8 @@ body {
 
 .Nav-Menu a:nth-child(5){
   color: #000;
+  text-shadow:0.1em 0.1em 0.2em rgb(255, 255, 255) ;
+  
 }
 #Home .inner-width {
   display: flex;
@@ -139,8 +147,10 @@ body {
 .Title .Word {
   font-size: 3em;
   font-weight: 600;
-  margin-left: 5vw;
+  margin-top: 8%;
+  margin-left: 14vw;
   /* background: url() no-repeat center; */
+  border: solid 1px black;
 }
 .Title .T-Photo {
   /* border: solid 1px black; */
@@ -148,17 +158,16 @@ body {
   height: 250px;
 }
 .Title .Content {
-  /* border: solid 1px black;  */
-  margin-top: -800px;
-  margin-left: 300px;
+  border: solid 1px rgb(255, 0, 0);
+ margin-right: 10%;
+ margin-top: -2%;
   width: 70%;
   font-size: 35px;
 }
 .Gallery {
   width: 1200px;
   height: 400px;
-  margin-top: -500px;
-  margin-left: 0px;
+  margin: auto;
   /* border: solid 1px black; */
 }
 .Content {
@@ -279,8 +288,8 @@ body {
 }
 
 .T-Photo {
-  margin-top: -120px;
-  margin-left: -1200px;
+  margin-left: 0%;
+  /* border: solid 1px black; */
 }
 
 .Information {
@@ -325,10 +334,6 @@ body {
   font-size: 18px;
   /* border: solid 1px rgb(0, 0, 0); */
 }
-.Word {
-  margin-top: 40%;
-}
-
 #gallery {
   -webkit-column-count: 4;
   -moz-column-count: 4;
@@ -391,16 +396,25 @@ body {
 }
 
 .Title .Word1 {
+  border: solid 1px black;
+  font-size: 3em;
+  font-weight: 600;
+  margin-left: 0%;
+  margin-top: 20%;
+  /* background: url() no-repeat center; */
+
+}
+.Title .Word2 {
   font-size: 3em;
   font-weight: 600;
   margin-left: 5vw;
-  margin-top: 0px;
+  margin-top: 35%;
   /* background: url() no-repeat center; */
 }
 .Content1 {
   /* border: solid 1px black; */
   margin: 0 auto;
   padding-left: 300px;
-  margin-top: 1000px;
+  margin-top: 30%;
   display: flex;
 }
