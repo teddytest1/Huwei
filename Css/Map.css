@@ -10,8 +10,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("../Photo/map.jpg");
+  /* background-image: url("../Photo/map.jpg"); */
   background-size: cover;
+  display: flex;
 }
 .logo {
   position: relative;
@@ -41,7 +42,6 @@
   height: 100px;
 }
 #btn1:hover{
-  
   color: #afa790;
 }
 
@@ -76,4 +76,15 @@
   border: solid rgb(150, 150, 150) 0.1px;
   border-color: rgb(150, 150, 150);
 }
-
+.map{
+  position: relative;
+  width: 900px;
+  height: 600px;
+  border: solid 1px rgb(0, 0, 0);
+  background-image: url("../Photo/street.png");
+  margin-top: 15%;
+}
+.Pbtn{
+  width: 100px;
+  height: 100px;
+}
