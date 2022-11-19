@@ -31,7 +31,10 @@ body {
   width: 100%;
 }
 .NavBar {
+<<<<<<< HEAD
   /* 上面bar文字 */
+=======
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
   position: fixed;
   background-color: rgb(201, 201, 201);
   width: 100%;
@@ -40,7 +43,10 @@ body {
   z-index: 999;
   transition: 0.3s linear;
   font-family: 'dick';
+<<<<<<< HEAD
   
+=======
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }
 .inner-width {
   max-width: 1700px;
@@ -69,7 +75,11 @@ body {
   cursor: pointer;
   position: relative;
   outline: none;
+<<<<<<< HEAD
   z-index: 888;
+=======
+  z-index: 999;
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
   display: none;
 }
 .Menu-toggler span {
@@ -81,7 +91,10 @@ body {
   background-color: #fff;
 }
 .Nav-Menu a {
+<<<<<<< HEAD
   /* bar的a */
+=======
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
   text-shadow:0.1em 0.1em 0.2em black ;
   margin: 0;
   padding: 0;
@@ -89,6 +102,7 @@ body {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
+<<<<<<< HEAD
   font-size: 30px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -97,6 +111,11 @@ body {
 }
 .Nav-Menu a:nth-child(5){
   border-bottom: 2px solid rgb(0, 0, 0);
+=======
+  font-size: 35px;
+  font-weight: 200;
+  padding: 4px;
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }
 .Nav-Menu a:hover {
   color: rgb(255, 255, 255) !important;
@@ -106,7 +125,10 @@ body {
 .Nav-Menu a:hover:nth-child(5){
   color: rgb(0, 0, 0) !important;
   border-bottom: 2px solid transparent;
+<<<<<<< HEAD
   border-bottom: 2px solid rgb(0, 0, 0);
+=======
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }
 
 .sticky {
@@ -145,6 +167,7 @@ body {
 }
 .Photo {
   /* border: solid 1px black;  */
+<<<<<<< HEAD
   width: 100%;
   height: 100%;
   margin-top: 12%;
@@ -164,19 +187,37 @@ body {
 .Title {
   /* border: solid 1px black; */
   width: 100%;
+=======
+  width: 135%;
+  height: 135%;
+  margin-top: 40%;
+  margin-right: 0%;
+}
+
+.Title {
+  /* border: solid 1px black; */
+  width: calc(90% - 50px);
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 .Title .Word {
   font-size: 3em;
+<<<<<<< HEAD
   font-weight: 900;
   margin-top: 8%;
   margin-left: 27vw;
+=======
+  font-weight: 600;
+  margin-top: 8%;
+  margin-left: 14vw;
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
   /* background: url() no-repeat center; */
   /* border: solid 1px black; */
 }
 .Title .Word1 {
+<<<<<<< HEAD
   font-size: 3em;
   font-weight: 1000;
   margin-left: 5vw;
@@ -184,6 +225,16 @@ body {
   /* background: url() no-repeat center; */
 }
 
+=======
+  /* border: solid 1px black; */
+  font-size: 3em;
+  font-weight: 600;
+  margin-left: 0%;
+  margin-top: 20%;
+  /* background: url() no-repeat center; */
+
+}
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 .Title .Word2 {
   font-size: 3em;
   font-weight: 600;
@@ -191,6 +242,7 @@ body {
   margin-top: 35%;
   /* background: url() no-repeat center; */
 }
+<<<<<<< HEAD
 .Word3 {
   font-size: 35px;
   font-weight: 600;
@@ -212,6 +264,19 @@ body {
   font-size: 22px;
   line-height: 35px;
   letter-spacing: 1px;
+=======
+.Title .T-Photo {
+  /* border: solid 1px black; */
+  width: 350px;
+  height: 250px;
+}
+.Title .Content {
+  /* border: solid 1px rgb(255, 0, 0); */
+ margin-right: 10%;
+ margin-top: -2%;
+  width: 70%;
+  font-size: 35px;
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }
 .Content1 {
   /* border: solid 1px black; */
@@ -226,6 +291,16 @@ body {
   margin: auto;
   /* border: solid 1px black; */
 }
+<<<<<<< HEAD
+=======
+.Content {
+  /* border: solid 1px black; */
+  margin: 0 auto;
+  padding-left: 280px;
+  margin-top: 400px;
+  display: flex;
+}
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 .Information {
   /* border: solid 1px black;  */
   width: 250px;
@@ -233,6 +308,7 @@ body {
   margin-top: 16px;
 }
 .Information .Information-title {
+<<<<<<< HEAD
   font-size: 35px;
   font-weight: 600;
   margin-left: -12.5vw;
@@ -243,6 +319,13 @@ body {
   font-size: 22px;
   margin-left: -12.3vw;
   letter-spacing: 1px;
+=======
+  font-size: 24px;
+  font-weight: 600;
+}
+.Information .Information-content {
+  font-weight: 500;
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }
 .Inner {
   width: fit-content;
@@ -252,7 +335,11 @@ body {
 .Map {
   width: 500px;
   height: 350px;
+<<<<<<< HEAD
   margin-top: -400px;
+=======
+  margin-top: -500px;
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
   margin-left: 100px;
   /* border: solid 1px black; */
   background: url() no-repeat center;
@@ -328,6 +415,18 @@ body {
   }
 }
 
+<<<<<<< HEAD
+=======
+.Words {
+  position: relative;
+  font-weight: ;
+  font-size: 100px;
+  /* border: solid 1px black; */
+  width: 100%;
+  font-family: 'dick1';
+}
+
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 .Second {
   margin-top: 550px;
 }
@@ -439,7 +538,10 @@ body {
 .Forth {
   margin-top: 1200px;
 }
+<<<<<<< HEAD
 .gallery{
   width: 90%;
   margin: auto;
 }
+=======
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d

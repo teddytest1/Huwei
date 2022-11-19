@@ -17,6 +17,7 @@ body{
   position: relative;
   margin: auto;
   margin-top:3%;
+<<<<<<< HEAD
    /* border: solid 1px rgb(0, 0, 0); */
 }
 .LogoBtn{
@@ -25,6 +26,14 @@ body{
   width:50%;
   height: 50%;
   /* border: solid 1px white; */
+=======
+   /* border: solid 1px white; */
+}
+.LogoBtn{
+  position: relative;
+  width:70%;
+  height: 70%;
+>>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }
 .LogoBtn:hover{
   transform: scale(1.1);
