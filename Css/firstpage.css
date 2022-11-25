@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'dick';
-  src:url('../Font/王漢宗特黑體繁.ttf') format("opentype");
+  font-family: "dick";
+  src: url("../Font/王漢宗特黑體繁.ttf") format("opentype");
 }
 @font-face {
   font-family: "dick1";
@@ -39,8 +39,7 @@ body {
   top: 0;
   z-index: 999;
   transition: 0.3s linear;
-  font-family: 'dick';
-  
+  font-family: "dick";
 }
 .inner-width {
   max-width: 1700px;
@@ -82,7 +81,7 @@ body {
 }
 .Nav-Menu a {
   /* bar的a */
-  text-shadow:0.1em 0.1em 0.2em black ;
+  text-shadow: 0.1em 0.1em 0.2em black;
   margin: 0;
   padding: 0;
   margin-left: 16px;
@@ -93,9 +92,8 @@ body {
   font-weight: 100;
   letter-spacing: 2px;
   padding: 4px;
-  
 }
-.Nav-Menu a:nth-child(5){
+.Nav-Menu a:nth-child(5) {
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 .Nav-Menu a:hover {
@@ -103,7 +101,7 @@ body {
   scale: 2.5;
   border-bottom: 2px solid rgb(253, 253, 253);
 }
-.Nav-Menu a:hover:nth-child(5){
+.Nav-Menu a:hover:nth-child(5) {
   color: rgb(0, 0, 0) !important;
   border-bottom: 2px solid transparent;
   border-bottom: 2px solid rgb(0, 0, 0);
@@ -131,10 +129,9 @@ body {
   padding-top: 5vh;
 }
 
-.Nav-Menu a:nth-child(5){
+.Nav-Menu a:nth-child(5) {
   color: #000;
-  text-shadow:0.1em 0.1em 0.2em rgb(255, 255, 255) ;
-  
+  text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
 }
 #Home .inner-width {
   display: flex;
@@ -152,21 +149,23 @@ body {
 }
 .Words {
   /* 大標 */
-  position:absolute;
+  position: absolute;
   font-size: 100px;
   /* border: solid 1px black; */
   margin-top: 3%;
   margin-left: -50%;
   letter-spacing: 4px;
   width: 50%;
-  font-family: 'dick1';
+  font-family: "dick1";
 }
 .Title {
   /* border: solid 1px black; */
   width: 100%;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20%;
 }
 .Title .Word {
   font-size: 3em;
@@ -180,7 +179,8 @@ body {
   font-size: 3em;
   font-weight: 1000;
   margin-left: 5vw;
-  margin-top: 35%;
+  margin-top: 20%;
+  vertical-align: middle;
   /* background: url() no-repeat center; */
 }
 
@@ -192,22 +192,22 @@ body {
   /* background: url() no-repeat center; */
 }
 .Word3 {
-  font-size: 35px;
+  font-size: 2em;
   font-weight: 600;
-  margin-left: 20vw;
-  margin-top: -3%;
+  margin-top: 21%;
+  vertical-align: middle;
   /* background: url() no-repeat center; */
 }
 .Title .T-Photo {
   /* border: solid 1px black; */
   width: 350px;
-  height: 250px; 
+  height: 250px;
 }
 .Title .Content {
   /* 內文字 */
   /* border: solid 1px rgb(255, 0, 0); */
- margin-top: -2%;
- margin-left: 50%;
+  margin-top: -2%;
+  margin-left: 50%;
   width: 150%;
   font-size: 22px;
   line-height: 35px;
@@ -216,8 +216,8 @@ body {
 .Content1 {
   /* border: solid 1px black; */
   margin: 0 auto;
-  padding-left: 300px;
-  margin-top: 30%;
+  padding-left: 0px;
+  margin-top: 15%;
   display: flex;
 }
 .Gallery {
@@ -229,31 +229,31 @@ body {
 .Information {
   /* border: solid 1px black;  */
   width: 250px;
-  height: 60px;
-  margin-top: 16px;
+  height: 50px;
 }
 .Information .Information-title {
   font-size: 35px;
   font-weight: 600;
-  margin-left: -12.5vw;
-  margin-top: 30px;
+  margin-left: 5vw;
+  margin-top: 5vw;
 }
 .Information .Information-content {
   font-weight: 500;
   font-size: 22px;
-  margin-left: -12.3vw;
+  margin-left: 5vw;
   letter-spacing: 1px;
+  width: 400px;
 }
 .Inner {
   width: fit-content;
   height: fit-content;
-  /* border: solid 1px black; */
+  /* border: solid 1px rgb(255, 9, 9); */
 }
 .Map {
   width: 500px;
   height: 350px;
-  margin-top: -400px;
-  margin-left: 100px;
+  margin-top: -200px;
+  margin-left: 22.5vw;
   /* border: solid 1px black; */
   background: url() no-repeat center;
 }
@@ -339,7 +339,7 @@ body {
 
 .Information {
   margin-top: -260px;
-  margin-left: -30px;
+  margin-left: 0%;
   font-size: 20px;
   /* border: solid 1px black; */
 }
@@ -439,7 +439,7 @@ body {
 .Forth {
   margin-top: 1200px;
 }
-.gallery{
+.gallery {
   width: 90%;
   margin: auto;
 }
