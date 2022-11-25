@@ -93,7 +93,7 @@
     letter-spacing: 2px;
     padding: 4px;
   }
-  .Nav-Menu a:nth-child(5) {
+  .Nav-Menu a:nth-child(2) {
     border-bottom: 2px solid rgb(0, 0, 0);
   }
   .Nav-Menu a:hover {
@@ -101,7 +101,7 @@
     scale: 2.5;
     border-bottom: 2px solid rgb(253, 253, 253);
   }
-  .Nav-Menu a:hover:nth-child(5) {
+  .Nav-Menu a:hover:nth-child(2) {
     color: rgb(0, 0, 0) !important;
     border-bottom: 2px solid transparent;
     border-bottom: 2px solid rgb(0, 0, 0);
@@ -129,7 +129,7 @@
     padding-top: 5vh;
   }
   
-  .Nav-Menu a:nth-child(5) {
+  .Nav-Menu a:nth-child(2) {
     color: #000;
     text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
   }
