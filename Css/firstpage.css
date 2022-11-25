@@ -205,7 +205,7 @@ body {
 }
 .Title .Content {
   /* 內文字 */
-  border: solid 1px rgb(255, 0, 0);
+  /* border: solid 1px rgb(255, 0, 0); */
  margin-top: -2%;
  margin-left: 50%;
   width: 150%;
