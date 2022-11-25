@@ -10,11 +10,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
   background-image: url("../Photo/map.jpg");
-=======
-  /* background-image: url("../Photo/map.jpg"); */
->>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
   background-size: cover;
   display: flex;
 }
@@ -86,19 +82,12 @@
   height: 600px;
   border: solid 1px rgb(0, 0, 0);
   background-image: url("../Photo/street.png");
-<<<<<<< HEAD
   background-size: contain;
   margin-top: 5%;
   margin-right: 2%;
-=======
-  margin-top: 15%;
->>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }
 .Pbtn{
   width: 100px;
   height: 100px;
-<<<<<<< HEAD
   margin: auto;
-=======
->>>>>>> 445dd747204d0594c117ede56685ba2a59d2840d
 }

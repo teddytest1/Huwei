@@ -31,10 +31,7 @@ body {
   width: 100%;
 }
 .NavBar {
-
   /* 上面bar文字 */
-
-
   position: fixed;
   background-color: rgb(201, 201, 201);
   width: 100%;
@@ -43,9 +40,7 @@ body {
   z-index: 999;
   transition: 0.3s linear;
   font-family: 'dick';
-
   
-
 }
 .inner-width {
   max-width: 1700px;
@@ -75,7 +70,6 @@ body {
   position: relative;
   outline: none;
   z-index: 888;
-  z-index: 999;
   display: none;
 }
 .Menu-toggler span {
@@ -103,9 +97,6 @@ body {
 }
 .Nav-Menu a:nth-child(5){
   border-bottom: 2px solid rgb(0, 0, 0);
-  font-size: 35px;
-  font-weight: 200;
-  padding: 4px;
 }
 .Nav-Menu a:hover {
   color: rgb(255, 255, 255) !important;
@@ -173,15 +164,6 @@ body {
 .Title {
   /* border: solid 1px black; */
   width: 100%;
-  width: 135%;
-  height: 135%;
-  margin-top: 40%;
-  margin-right: 0%;
-}
-
-.Title {
-  /* border: solid 1px black; */
-  width: calc(90% - 50px);
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -191,9 +173,6 @@ body {
   font-weight: 900;
   margin-top: 8%;
   margin-left: 27vw;
-  font-weight: 600;
-  margin-top: 8%;
-  margin-left: 14vw;
   /* background: url() no-repeat center; */
   /* border: solid 1px black; */
 }
@@ -203,16 +182,6 @@ body {
   margin-left: 5vw;
   margin-top: 35%;
   /* background: url() no-repeat center; */
-}
-
-{
-  /* border: solid 1px black; */
-  font-size: 3em;
-  font-weight: 600;
-  margin-left: 0%;
-  margin-top: 20%;
-  /* background: url() no-repeat center; */
-
 }
 
 .Title .Word2 {
@@ -244,18 +213,6 @@ body {
   line-height: 35px;
   letter-spacing: 1px;
 }
-.Title .T-Photo {
-  /* border: solid 1px black; */
-  width: 350px;
-  height: 250px;
-}
-.Title .Content {
-  /* border: solid 1px rgb(255, 0, 0); */
- margin-right: 10%;
- margin-top: -2%;
-  width: 70%;
-  font-size: 35px;
-}
 .Content1 {
   /* border: solid 1px black; */
   margin: 0 auto;
@@ -269,15 +226,6 @@ body {
   margin: auto;
   /* border: solid 1px black; */
 }
-
-.Content {
-  /* border: solid 1px black; */
-  margin: 0 auto;
-  padding-left: 280px;
-  margin-top: 400px;
-  display: flex;
-}
-
 .Information {
   /* border: solid 1px black;  */
   width: 250px;
@@ -285,7 +233,6 @@ body {
   margin-top: 16px;
 }
 .Information .Information-title {
-
   font-size: 35px;
   font-weight: 600;
   margin-left: -12.5vw;
@@ -296,13 +243,6 @@ body {
   font-size: 22px;
   margin-left: -12.3vw;
   letter-spacing: 1px;
-
-  font-size: 24px;
-  font-weight: 600;
-}
-.Information .Information-content {
-  font-weight: 500;
-
 }
 .Inner {
   width: fit-content;
@@ -312,11 +252,7 @@ body {
 .Map {
   width: 500px;
   height: 350px;
-
   margin-top: -400px;
-
-  margin-top: -500px;
-
   margin-left: 100px;
   /* border: solid 1px black; */
   background: url() no-repeat center;
@@ -390,16 +326,6 @@ body {
     transform: rotate(45deg);
     bottom: 14px;
   }
-}
-
-
-.Words {
-  position: relative;
-  font-weight: ;
-  font-size: 100px;
-  /* border: solid 1px black; */
-  width: 100%;
-  font-family: 'dick1';
 }
 
 .Second {
@@ -513,7 +439,6 @@ body {
 .Forth {
   margin-top: 1200px;
 }
-
 .gallery{
   width: 90%;
   margin: auto;

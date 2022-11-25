@@ -25,12 +25,6 @@ body{
   width:50%;
   height: 50%;
   /* border: solid 1px white; */
-   /* border: solid 1px white; */
-}
-.LogoBtn{
-  position: relative;
-  width:70%;
-  height: 70%;
 }
 .LogoBtn:hover{
   transform: scale(1.1);
