@@ -36,3 +36,20 @@ body{
   /* border: solid 1px white; */
   text-align: center;
 }
+
+input{border:0;
+  background-color:#848484;
+  color:#fff;
+  border-radius:10px;
+  cursor:pointer;}
+
+input:hover{
+  color:#848484;
+  background-color:#fff;
+  border:2px #000000 solid;
+}
+.Btn{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 88%;
+}
