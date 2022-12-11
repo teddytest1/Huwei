@@ -37,19 +37,31 @@ body{
   text-align: center;
 }
 
-input{border:0;
+button{
   background-color:#848484;
   color:#fff;
-  border-radius:10px;
-  cursor:pointer;}
-
-input:hover{
+  border-radius:30px;
+  cursor:pointer;
+}
+button:hover{
   color:#848484;
   background-color:#fff;
-  border:2px #000000 solid;
 }
-.Btn{
+.B1{
+  border: 0;
   position: absolute;
   margin-top: 20%;
   margin-left: 88%;
+  background-color:#848484;
+  color:#fff;
+  border-radius:10px;
+  cursor:pointer;
+}
+.B1 a{
+  text-decoration: none; 
+  color: rgb(255, 255, 255);
+}
+.B1:hover{
+  color:#848484;
+  background-color:#fff;
 }
