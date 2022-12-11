@@ -43,8 +43,102 @@
 }
 #btn1:hover{
   color: #afa790;
+} 
+#btn1 {
+  position: relative;
+  margin-top: 18px;
+  margin-left: 16px;
+  background-color: transparent;
+  font-family: "dick1";
+  color: black;
+  border: none;
+  font-size:38px;
 }
-
+#btn1:hover::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+}
+#btn1:hover{
+  color: #afa790;
+}
+#btn2 {
+  position: relative;
+  margin-top: 18px;
+  margin-left: 16px;
+  background-color: transparent;
+  font-family: "dick1";
+  color: black;
+  border: none;
+  font-size:38px;
+}
+#btn2:hover::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+}
+#btn2:hover{
+  color: #afa790;
+}
+#btn3 {
+  position: relative;
+  margin-top: 18px;
+  margin-left: 16px;
+  background-color: transparent;
+  font-family: "dick1";
+  color: black;
+  border: none;
+  font-size:38px;
+}
+#btn3:hover::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+}
+#btn3:hover{
+  color: #afa790;
+}
+#btn4 {
+  position: relative;
+  margin-top: 18px;
+  margin-left: 16px;
+  background-color: transparent;
+  font-family: "dick1";
+  color: black;
+  border: none;
+  font-size:38px;
+}
+#btn4:hover::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+}
+#btn4:hover{
+  color: #afa790;
+}
+#btn5 {
+  position: relative;
+  margin-top: 18px;
+  margin-left: 16px;
+  background-color: transparent;
+  font-family: "dick1";
+  color: black;
+  border: none;
+  font-size:38px;
+}
+#btn5:hover::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
+}
+#btn5:hover{
+  color: #afa790;
+}
 
 .BtnBox {
   margin-left: 20px;
@@ -80,7 +174,7 @@
   position: relative;
   width: 1400px;
   height: 600px;
-  border: solid 1px rgb(0, 0, 0);
+  /* border: solid 1px rgb(0, 0, 0); */
   background-image: url("../Photo/street.png");
   background-size: cover;
   margin-top: 5%;
@@ -94,9 +188,7 @@
   margin-left: 56%;
   margin-top: 30%;
 }
-.Pbtn1:hover{
-  scale: 1.1;
-}
+
 .Pbtn2{
   position: absolute;
   width: 120px;
