@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>林記</title>
+    <link rel="stylesheet" type="text/css" href="../Css/01.css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="../Scripts.js"></script>
+  </head>
+  <body>
+    <nav class="NavBar">
+      <div class="inner-width">
+        <a href="#Home" class="Logo"></a>
+        <button class="Menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="Nav-Menu">
+          <a href="../index.html">虎尾糖廠</a>
+          <a href="../Html/heart.html">同心公園</a>
+          <a href="../Html/huwei1.html">虎尾驛</a>
+          <a href="../Html/bridge.html">虎尾鐵橋</a>
+          <a href="#Info">日式宿舍群</a>
+          <!-- <a href="#7">關於我們</a> -->
+          <!-- 上面bar -->
+        </div>
+      </div>
+    </nav>
+    <section class="First" id="Home">
+      <div class="inner-width">
+        <div class="Words">林記</div>
+        <!-- 大標的大標 -->
+        <div class="Photo">
+          <img src="../Photo/homee.png" width="100%" />
+        </div>
+      </div>
+    </section>
+    <section class="Second" id="History">
+      <div class="Title">
+        
+        <div class="T-Photo">
+          <img
+            src="../Photo/homeee.png"
+            width="60%"
+            height="100%"
+            style="cursor: url('../Photo/sssice.png'), auto"
+          />
+        </div>
+        
+        <span class="Word">店家簡介</span>
+        <span class="Content">店面顏色是可愛繽紛的馬卡龍色系，不同於一般店鋪將大門設置在正前方或左右兩側，而是在後門一個隱蔽的地方，前台則是提供給外帶客人方便點單的得來速窗口。店內裝飾文青，氣氛悠閒輕鬆，挑高的屋頂讓整體空間看起來更大，裝潢則是木頭風格，有圖書區域供顧客翻閱，正中間則擺放大量的新鮮水果，讓顧客更能貼近大自然。在吧檯點餐時，老闆娘會詳細介紹菜單和近期食材的相關好壞或甜度問題，依照顧客需求喜好進行推薦以及比例上的調整，外國遊客也不須擔心溝通上的問題，可以放心前往。</span>
+        
+      </div>
+    </section>
+    <section class="Third" id="Space">
+      <div class="Title">
+        <div class="Word2">美食介紹</div>
+        <!-- 中標 -->
+        <div class="gallery">
+          <div id="gallery" class="container-fluid">
+            <img src="../Photo/jpanhome/J13.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J12.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J11.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J10.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J9.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J8.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J7.png" class="card img-responsive" />
+            <img src="../Photo/jpanhome/J6.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J5.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J4.jpg" class="img-responsive" />
+            <img src="../Photo/jpanhome/J3.JPG" class="img-responsive" />
+            <img src="../Photo/jpanhome/J2.jpg" class="img-responsive" />
+            <img src="../Photo/jpanhome/J1.JPG" class="img-responsive" />
+          </div>
+
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 照片輪播 -->
+      </div>
+    </section>
+    <section class="Forth" id="Info">
+      <div class="Title">
+      <span class="Word1">探索指南 &nbsp;</span><span class="Word3">Information</span>
+    </div>
+      <div class="Content1">
+        <div class="Inner">
+          <div class="Information">
+            <div class="Information-title">營業時間</div>
+            <div class="Information-content">周一至周日10:00-19:00<br>周二公休</div>
+            <div class="Information-title">地址</div>
+            <div class="Information-content">632雲林縣虎尾鎮民主三路5號</div>
+          </div>
+        </div>
+        <div class="Map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.256631565995!2d120.43293521498038!3d23.702527884612927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346eba000547af19%3A0x5205dda36117e9f1!2z6JmO5bC-57OW5bug5pel5byP5a6_6IiN576k!5e0!3m2!1szh-TW!2stw!4v1665302119727!5m2!1szh-TW!2stw"
+            width="800"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <a href="">
+            <img src="" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
