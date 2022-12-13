@@ -189,7 +189,7 @@ body {
   font-size: 3em;
   font-weight: 600;
   margin-left: 5vw;
-  margin-top: 35%;
+  margin-top: 20%;
   /* background: url() no-repeat center; */
 }
 .Word3 {
@@ -201,6 +201,7 @@ body {
 }
 .Title .T-Photo {
   /* border: solid 1px black; */
+  margin-top: 0%;
 }
 .Title .Content {
   /* 內文字 */
@@ -251,9 +252,10 @@ body {
 .Map {
   width: 500px;
   height: 350px;
-  margin-top: -220px;
-  margin-left: 22.5vw;
+  margin-top: -180px;
+  margin-left: 26vw;
   /* border: solid 1px black; */
+  padding-bottom: 3%;
   background: url() no-repeat center;
 }
 @media screen and (max-width: 980px) {
@@ -328,7 +330,7 @@ body {
 }
 
 .Second {
-  margin-top: 550px;
+  margin-top: 200px;
 }
 
 .T-Photo {
@@ -436,7 +438,7 @@ body {
 }
 
 .Forth {
-  margin-top: 1200px;
+  margin-top: 800px;
 }
 .gallery {
   width: 90%;

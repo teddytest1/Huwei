@@ -276,9 +276,10 @@
   .Map {
     width: 500px;
     height: 350px;
-    margin-top: -220px;
-    margin-left: 22.5vw;
+    margin-top: -180px;
+    margin-left: 26vw;
     /* border: solid 1px black; */
+    padding-bottom: 3%;
     background: url() no-repeat center;
   }
   @media screen and (max-width: 980px) {
