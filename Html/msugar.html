@@ -1,12 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>製糖啦</title>
+    <link rel="stylesheet" type="text/css" href="../Css/msugar.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+    <script src="../Scripts.js"></script>
+  </head>
+  <body>
+    <nav class="NavBar">
+      <div class="inner-width">
+        <a href="../index.html" class="Logo"></a>
+        <button class="Menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="Nav-Menu">
+          <div class="dropdown">
+            <div class="dropbtn">
+              <a href="../Html/sugar.html">虎尾糖廠&thinsp;&thinsp;&thinsp;</a>
+              <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+              <a href="../Html/msugar.html"id="S1">製糖</a>
+              <!-- <a href="../Html/01.html"id="S2">林記</a> -->
+            </div>
+            <div class="triangle">
+              <div class="over-triangle"></div>
+              <div class="over-triangle1"></div>
+            </div>
+          </div>
+          <a href="../Html/heart.html">同心公園</a>
+          <a href="../Html/huwei1.html">虎尾驛</a>
+          <a href="../Html/bridge.html">虎尾鐵橋</a>
+          <a href="../Html/firstpage.html">日式宿舍群</a>
+          <!-- <a href="#7">關於我們</a> -->
+          <!-- 上面bar -->
+        </div>
+      </div>
+    </nav>
+    <section class="First" id="Home">
+      <div class="inner-width">
+        <div class="Words">製糖喔</div>
+        <!-- 大標的大標 -->
+        <div class="Photo">
+          <img src="../Photo/sugar2.png" width="110%" />
+        </div>
+      </div>
+    </section>
+    <section class="Second" id="History">
+      <div class="Title">
+        <div class="T-Photo">
+          <img
+            src="../Photo/sugar1.png"
+            width="70%"
+            height="100%"
+            style="cursor: url('../Photo/sssice.png'), auto"
+          />
+        </div>
+        <span class="Word">歷史記憶 History</span>
+        <span class="Content">
+          虎尾糖廠又稱為台糖虎尾總廠，目前是唯二從事製糖業務且仍在營運的糖廠之一，舊稱虎尾製糖所。
+          日據時期，台灣總督府為了推動主力產業以獲取經費建設台灣，經過評估之後，在1905年核准台灣製糖株式會社的成立，從美國、夏威夷等地引進優良的甘蔗品種，藉此提升糖的產量，除此之外，也開放民間蔗農參與種植甘蔗原料，制定明確的獎勵規範。1906年，總督府聘請英國人規劃廠區及各項設施，設計師引進了歐洲的工業聚落型態，除了設立工廠外，還包含宿舍區、公園、醫院、學校等等，短時間內的快速發展，被升格為虎尾郡；也由於糖產量居全台之冠，虎尾糖廠成為東洋第一大廠，使虎尾有「糖都」之稱。
+          1909年第一工場正式開工，1912年興建第二工場，每日壓榨甘蔗量達到1600公噸，1925年增設東洋地區規模最大的酒精工場。二次大戰期間，由於此地設有飛機場，被列為攻擊重點目標轟炸，損害程度非常嚴重，因此在戰爭結束之後，開始逐一修復，並在1945年年底開始恢復製糖；飛機場則成為空軍的新兵訓練基地，證明了製糖產業同時帶動了軍事發展。
+          光復後，國民政府接手日本人遺留的各項產業，在民國35年於上海成立了台灣糖業股份有限公司，目的則是依靠生產糖外銷至國外賺取外匯，而外匯利率隨著國際糖價調整，獲利並不固定；由於糖屬於國防食品，因此虎尾糖廠的經營策略改成80%仰賴進口的糖來彌補，而20%則是依靠進口的糖所獲得的利潤來補償虧損，現在則以多角化的方式經營。
+          現在虎尾糖廠仍在營運當中，平常不開放入內參觀，只開放販售部讓觀光客進入，在每年的12月到隔年4月為製糖季，遊客有機會可看到五分車往返糖廠與褒忠鄉載運甘蔗的風景。
+        </span>
+        <!-- <span class="Word4">製糖</span>
+      <span class="Content2">在講述製糖的過程之前，要先來談談「糖」的歷史。根據歷史學者考證，遠古時期並沒有甘蔗，原產地最早在巴布亞、新幾內亞，經由南島語系原住民將一種類似牧草的禾本科植物帶往亞洲，再與當地植物雜交，無形中產生了此植物，中國稱它為甘蔗。由於蔗汁具有甜味，被中國列為珍貴的中藥材；在印度則是由於無形中提煉甘蔗汁而產生了糖，也因此誕生了製糖產業的雛型。在西元四世紀，亞歷山大在印度發動戰爭時，士兵發現了製糖產業並帶回歐洲；接下來的十字軍東征、大航海殖民時代，歐洲國家將此產業繼續擴散至全球。
+        台灣的製糖產業從1624年荷蘭人占據台灣，讓漢人從事糖的生產，再出口到日本獲取商業利潤；而早期的製糖場所被稱為「糖廍」，靠著三頭牛牽引大樑，將甘蔗押出甘蔗汁，做法非常原始，沒有一定的規模及生產效率；壓出甘蔗汁後，再放入大鍋熬煮，等到水分蒸發完畢，便會殘留糖與糖蜜的混合物，繼續炒乾後就會形成粉狀的黑糖。與虎尾糖廠所生產的糖不同的原因，因為糖廠是利用蒸氣熬煮甘蔗汁，讓糖慢慢結晶至一定規格後，以離心的方式留下砂糖的結晶體，而因為製糖的方式不同，產出的品項也大不相同。
+        虎尾糖廠內部還有一個被列為古蹟的景點，就是虎尾糖廠酒精槽。在製糖的過程中，主要產物為砂糖，副產物則會留下糖蜜、甘蔗渣等等，日本人發現糖蜜可做為製造酒精的原料，於是在大正15年創設酒精工場，供給飛機所需燃料，當時為亞洲最大的酒精工場。由於在民國60年間因為設備老舊，生產效率降低，造成嚴重虧損，在民國64年拆遷至新營，導致工場剩餘兩支煙囪，並保留了酒精槽防空磚牆。
+        根據虎尾糖廠陳先生所說，此種方法是循環經濟的一部份，日治時期利用糖蜜提煉酒精，而在早期，糖蜜則用來提煉酵母、酵素，做成健素糖，為了獲取營養，政府也大力推廣此產品，除了健素之外，糖蜜還可提煉酒精，供給下游廠商出產味精與味素。甘蔗渣也曾被作為建材甘蔗板，但因為後續建材精緻化的緣故，此產物因此被淘汰，原先的造紙也因為造成汙染而停止生產。現在則將甘蔗渣混合糖蜜與豬隻的排泄物，做成有機堆肥，此舉不僅對環境有益，也能充分達到循環經濟的意義。
+        
+        </span> -->
+      </div>
+      <div class="vbox">
+      <div class="video1">
+        <iframe 
+        width="500" height="350" src="https://www.youtube.com/embed/rwx24bcBGD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     
-</body>
+    <div class="Word5">古點之美Photo</div>
+      
+    <div class="video2">
+      <iframe 
+      width="500" height="350" src="https://www.youtube.com/embed/wk2Ac4ZpE_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+      <div class="gallery1">
+        <div id="gallery" class="container-fluid">
+          <img src="../Photo/oldsugar/1.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/2.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/3.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/4.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/5.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/6.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/7.jpg" class="card img-responsive" />
+          <img src="../Photo/oldsugar/8.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/9.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/10.jpg" class="img-responsive" />
+          
+          <img src="../Photo/oldsugar/11.jpg" class="img-responsive" />
+          <img src="../Photo/oldsugar/12.jpg" class="img-responsive" />
+          
+          <img src="../Photo/oldsugar/13.jpg" class="img-responsive" />
+
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Third" id="Space">
+      <div class="Title">
+        <div class="Word2">景點之美Photo</div>
+        <!-- 中標 -->
+        <div class="gallery">
+          <div id="gallery" class="container-fluid">
+            <img src="../Photo/sugar/1.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/2.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/3.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/4.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/5.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/6.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/7.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/8.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/9.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/10.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/11.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/12.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/13.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/14.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/15.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/16.JPG" class="img-responsive" />
+            <img src="../Photo/sugar/17.JPG" class="img-responsive" />
+          </div>
+
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 照片輪播 -->
+      </div>
+    </section>
+    <section class="Forth" id="Info">
+      <div class="Title">
+        <span class="Word1">探索指南 &nbsp;</span
+        ><span class="Word3">Information</span>
+      </div>
+      <div class="Content1">
+        <div class="Inner">
+          <div class="Information">
+            <div class="Information-title">地址</div>
+            <div class="Information-content">632雲林縣虎尾鎮中山路2號</div>
+            <div class="Information-title">電話</div>
+            <div class="Information-content">05-6321540</div>
+          </div>
+        </div>
+        <div class="Map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.2297833188927!2d120.43656621498043!3d23.70348698461255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346eb753f962f639%3A0x7687bd9ac2929de3!2z6JmO5bC-57OW5bug!5e0!3m2!1szh-TW!2stw!4v1670751037517!5m2!1szh-TW!2stw"
+            width="800"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <a href="">
+            <img src="" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
