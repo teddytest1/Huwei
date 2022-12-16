@@ -216,7 +216,7 @@
   }
   .Word71{
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 0%;
     margin-left: 23%;
     /* border: solid 1px black; */
@@ -230,7 +230,7 @@
   }
   .Word61{
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 0%;
     margin-left: 3%;
     /* border: solid 1px black; */
@@ -601,7 +601,9 @@
   width: 1300px;
   height: 600px;
   border: 21px solid;
-  border-image: var(--url) 21 round;
+  border-color:transparent ;
+  /* border-image: var(--url) 21 round; */
+  background-color: rgb(255, 217, 217);
 }
 
 .star {
