@@ -227,7 +227,7 @@
   }
   .Information {
     /* border: solid 1px black;  */
-    width: 250px;
+    width: 700px;
     height: 50px;
   }
   .Information .Information-title {
@@ -251,8 +251,8 @@
   .Map {
     width: 500px;
     height: 350px;
-    margin-top: -180px;
-    margin-left: 26vw;
+    margin-top: -100px;
+    margin-left: -40vw;
     /* border: solid 1px black; */
     padding-bottom: 3%;
     background: url() no-repeat center;
