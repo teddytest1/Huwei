@@ -528,7 +528,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: (201, 201, 201);
     min-width: 152px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     margin-top: -8px;
@@ -610,4 +610,9 @@
   border-image-repeat: repeat;
   border-image-slice: 30%;  
   // border-image-width: 20px;  
+}
+
+#S1{
+  font-size: 24px;
+  font-weight: 0!important;
 }
