@@ -149,8 +149,8 @@ body {
 }
 .Photo {
   /* border: solid 1px black;  */
-  width: 120%;
-  height: 120%;
+  width: 100%;
+  height: 100%;
   margin-top: 25%;
   margin-left: 40%;
 }
@@ -212,8 +212,8 @@ body {
   width: 50%;
   font-size: 3em;
   font-weight: 600;
-  margin-left: 3%;
-  margin-top: -10%;
+  margin-left: 5%;
+  margin-top: 0%;
   padding-right: 2%;
   /* background: url() no-repeat center; */
 }
@@ -471,7 +471,7 @@ body {
 }
 
 .Forth {
-  margin-top: 1600px;
+  margin-top: 2400px;
 }
 .gallery {
   width: 90%;
@@ -636,18 +636,19 @@ body {
 
 .vbox {
   position: relative;
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin: auto;
   margin-top: 20%;
+  margin-left: 5%;
   display: flex;
   /* border: 2px solid rgb(255, 123, 123); */
 }
 .video1 {
-  width: 60%;
+  width: 40%;
   height: 100%;
-  margin-left: 0%;
-  /* border: 1px solid rgb(0, 0, 0); */
+  margin: auto;
+  /* border: 1px solid rgb(118, 68, 255); */
 }
 .video2 {
   width: 100%;
