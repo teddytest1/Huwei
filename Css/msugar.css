@@ -655,7 +655,8 @@
   }
 
   .D1{
-    width: 40%;
+    width: 35%;
     height: 50%;
+    margin-left: 3%;
     border: 1px solid rgb(0, 0, 0);
   }
