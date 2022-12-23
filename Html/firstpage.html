@@ -11,7 +11,8 @@
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <script src="../Scripts.js"></script>
+    <link rel="stylesheet" href="../Css/lightbox.css">
+  
   </head>
   <body>
     <nav class="NavBar">
@@ -68,44 +69,28 @@
         </div>
         
         <span class="Word">歷史記憶 History</span>
-        <span class="Content">日式宿舍隨著當時虎尾糖廠的興建而興建的，已經有百年歷史，在全盛時期有60間宿舍，四周土地持續興建火車站、診所、理髮廳、公園、學校、醫務所、澡堂、福利社，是當時完整且自給自足的小型都市。由於木製建築容易發生火災，最後剩下11棟。<br><br>宿舍連續的毀壞，也引起當地人士的抗議及保留聲四起，所以宿舍四周架起透空圍籬的隔離保護動作。由於宿舍的主管單位為虎尾糖廠，所以糖廠的高層主管也受到地方人士的抨擊，而目前虎尾糖廠是外包保全公司定期巡邏。
-          目前有3棟宿舍被列入雲林縣古蹟保存，分別是第一公差宿舍、第三公差宿舍及廠長宿舍，都相鄰於民生九路上，現在還有人居住在內。公差宿舍為日治時期糖廠的招待所，平時提供員工出差、短暫住宿的地方。</span>
+        <span class="Content">日式宿舍隨著當時虎尾糖廠的興建而興建的，已經有百年歷史，在全盛時期有60間宿舍，四周土地持續興建火車站、診所、理髮廳、公園、學校、醫務所、澡堂、福利社，是當時完整且自給自足的小型都市。由於木製建築容易發生火災，最後剩下11棟。<br><br>宿舍連續的毀壞，也引起當地人士的抗議及保留聲四起，所以宿舍四周架起透空圍籬的隔離保護動作。由於宿舍的主管單位為虎尾糖廠，所以糖廠的高層主管也受到地方人士的抨擊，而目前虎尾糖廠是外包保全公司定期巡邏。目前有&ensp;3棟宿舍被列入雲林縣古蹟保存，分別是第一公差宿舍、第三公差宿舍及廠長宿舍，都相鄰於民生九路上，現在還有人居住在內。公差宿舍為日治時期糖廠的招待所，平時提供員工出差、短暫住宿的地方。</span>
       </div>
     </section>
     <section class="Third" id="Space">
       <div class="Title">
         <div class="Word2">景點之美Photo</div>
         <!-- 中標 -->
-        <div class="gallery">
-          <div id="gallery" class="container-fluid">
-            <!-- <img src="../Photo/jpanhome/J13.JPG" class="img-responsive" />
-            <img src="../Photo/jpanhome/J12.JPG" class="img-responsive" />
-            <img src="../Photo/jpanhome/J11.JPG" class="img-responsive" />
-            
-            <img src="../Photo/jpanhome/J9.JPG" class="img-responsive" />
-            <img src="../Photo/jpanhome/J8.JPG" class="img-responsive" /> -->
-            <img src="../Photo/jpanhome/9.jpg" class="img-responsive" />
-            <img src="../Photo/jpanhome/8.jpg" class="card img-responsive" />
-            <img src="../Photo/jpanhome/7.JPG" class="card img-responsive" />
-            <img src="../Photo/jpanhome/6.jpg" class="img-responsive" />
-            <img src="../Photo/jpanhome/5.JPG" class="img-responsive" />
-            <img src="../Photo/jpanhome/4.JPG" class="img-responsive" />
-            <img src="../Photo/jpanhome/3.JPG" class="img-responsive" />
-            <img src="../Photo/jpanhome/2.png" class="img-responsive" />
-            <img src="../Photo/jpanhome/1.jpg" class="img-responsive" />
-          </div>
-
-          <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-body"></div>
-              </div>
-            </div>
+        <div class="contianer">
+          <div class="gallery">
+              <a href="../Photo/jpanhome/8.jpg" data-lightbox="models" data-title=儘管屋頂已經半開天窗，底下的地基依然穩固，繼續支撐整座建築>
+                <img src="../Photo/jpanhome/8.jpg"/>
+                </a>
+                <img src="../Photo/jpanhome/7.JPG"/>
+                <img src="../Photo/jpanhome/6.jpg"/>
+                <img src="../Photo/jpanhome/5.JPG"/>
+                <img src="../Photo/jpanhome/4.JPG"/>
+                <img src="../Photo/jpanhome/3.JPG"/>
+                <img src="../Photo/jpanhome/2.png"/>
+                <img src="../Photo/jpanhome/1.jpg"/>
           </div>
         </div>
         <!-- 照片輪播 -->
-      </div>
     </section>
     <section class="Forth" id="Info">
       <div class="Title">
@@ -136,5 +121,8 @@
         </div>
       </div>
     </section>
+
+    <script src="../lightbox-plus-jquery.js"></script>
+
   </body>
 </html>
