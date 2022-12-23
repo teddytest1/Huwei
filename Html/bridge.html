@@ -11,7 +11,7 @@
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <script src="../Scripts.js"></script>
+    <link rel="stylesheet" href="../Css/lightbox1.css">
   </head>
   <body>
     <nav class="NavBar">
@@ -82,30 +82,44 @@
       <div class="Title">
         <div class="Word2">景點之美Photo</div>
         <!-- 中標 -->
-        <div class="gallery">
-          <div id="gallery" class="container-fluid">
-            <img src="../Photo/bridge/01.JPG" class="img-responsive" />
-            <img src="../Photo/bridge/02.jpg" class="img-responsive" />
-            <img src="../Photo/bridge/03.jpg" class="img-responsive" />
-            <img src="../Photo/bridge/04.jpg" class="img-responsive" />
-            <img src="../Photo/bridge/05.jpg" class="img-responsive" />
-            <img src="../Photo/bridge/06.jpg" class="img-responsive" />
-            <img src="../Photo/bridge/07.JPG" class="card img-responsive" />
-            <img src="../Photo/bridge/08.jpg" class="img-responsive" />
-            <!-- <img src="../Photo/bridge/09.JPG" class="img-responsive" /> -->
-            <!-- <img src="../Photo/bridge/1.JPG" class="img-responsive" />
-            <img src="../Photo/bridge/1.JPG" class="img-responsive" /> -->
-            <!-- <img src="../Photo/jpanhome/J2.jpg" class="img-responsive" />
-            <img src="../Photo/jpanhome/J1.JPG" class="img-responsive" /> -->
-          </div>
-
-          <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-body"></div>
-              </div>
-            </div>
+        <div class="contianer">
+          <div class="gallery">
+            <a href="../Photo/bridge/01.JPG" data-lightbox="models" data-title=鐵橋與遠方的虎尾糖廠相互眺望，帶我們回到過去尋找回憶。>
+              <img src="../Photo/bridge/01.JPG"/>
+              </a>
+              <a href="../Photo/bridge/02.jpg" data-lightbox="models" data-title=藍天與綠地，讓鐵橋看起來更具生命力。>
+              <img src="../Photo/bridge/02.jpg"/>
+            </a>
+              <a href="../Photo/bridge/03.JPG" data-lightbox="models" data-title=清澈藍天底下的鐵橋，在陽光照射下更耀眼了。>
+              <img src="../Photo/bridge/03.JPG"/>
+            </a>
+              <a href="../Photo/bridge/04.JPG" data-lightbox="models" data-title=鐵橋側面有強壯的鋼筋與鋼架支持，感覺安全感滿滿。>
+              <img src="../Photo/bridge/04.JPG"/>
+            </a>
+              <a href="../Photo/bridge/05.JPG" data-lightbox="models" data-title=從正面看感覺鐵橋好長一段。>
+              <img src="../Photo/bridge/05.JPG"/>
+            </a>
+              <a href="../Photo/bridge/06.JPG" data-lightbox="models" data-title=7月重新整修過後的鐵橋，有堅固的鋼筋及木板支撐，讓行走的人們能放心往前。>
+              <img src="../Photo/bridge/06.JPG"/>
+            </a>
+              <a href="../Photo/bridge/07.jpg" data-lightbox="models" data-title=夕陽。>
+              <img src="../Photo/bridge/07.jpg"/>
+            </a>
+              <a href="../Photo/bridge/08.jpg" data-lightbox="models" data-title=在鐵橋上可以眺望虎尾溪的美，運氣好的話還能看見鳥群在石頭上休憩，芒草隨著秋風飛揚，好生愜意。>
+              <img src="../Photo/bridge/08.jpg"/>
+            </a>
+            <a href="../Photo/bridge/09.jpg" data-lightbox="models" data-title=臺灣工場甘蔗鐵道輸送（其二）。>
+              <img src="../Photo/bridge/09.jpg"/>
+            </a>
+            <a href="../Photo/bridge/10.jpg" data-lightbox="models" data-title=臺灣工場虎尾溪鐵橋。>
+              <img src="../Photo/bridge/10.jpg"/>
+            </a>
+            <a href="../Photo/bridge/11.jpg" data-lightbox="models" data-title=他里霧線路（現今雲林縣斗南站）。>
+              <img src="../Photo/bridge/11.jpg"/>
+            </a>
+            <a href="../Photo/bridge/12.jpg" data-lightbox="models" data-title=補給車站。>
+              <img src="../Photo/bridge/12.jpg"/>
+            </a>
           </div>
         </div>
         <!-- 照片輪播 -->
@@ -133,5 +147,6 @@
         </div>
       </div>
     </section>
+    <script src="../lightbox-plus-jquery.js"></script>
   </body>
 </html>
