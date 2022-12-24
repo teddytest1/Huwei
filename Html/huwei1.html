@@ -11,7 +11,7 @@
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <script src="../Scripts.js"></script>
+    <link rel="stylesheet" href="../Css/lightboxbridge.css">
   </head>
   <body>
     <nav class="NavBar">
@@ -76,30 +76,32 @@
       <div class="Title">
         <div class="Word2">景點之美Photo</div>
         <!-- 中標 -->
-        <div class="gallery">
-          <div id="gallery" class="container-fluid">
-            <img src="../Photo/huwei1/1.jpg" class="img-responsive" />
-            <img src="../Photo/huwei1/2.jpg" class="img-responsive" />
-            <img src="../Photo/huwei1/3.jpg" class="img-responsive" />
-            <img src="../Photo/huwei1/4.jpg" class="img-responsive" />
-            <img src="../Photo/huwei1/5.jpg" class="img-responsive" />
-            <img src="../Photo/huwei1/6.jpg" class="img-responsive" />
-            <img src="../Photo/huwei1/7.jpg" class="card img-responsive" />
-            <img src="../Photo/huwei1/8.jpg" class="img-responsive" />
-            <!-- <img src="../Photo/bridge/9.JPG" class="img-responsive" />
-            <img src="../Photo/bridge/1.JPG" class="img-responsive" />
-            <img src="../Photo/bridge/1.JPG" class="img-responsive" />
-            <img src="../Photo/jpanhome/J2.jpg" class="img-responsive" />
-            <img src="../Photo/jpanhome/J1.JPG" class="img-responsive" /> -->
-          </div>
-
-          <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-body"></div>
-              </div>
-            </div>
+        <div class="contianer">
+          <div class="gallery">
+            <a href="../Photo/huwei1/1.jpg" data-lightbox="models" data-title=敞開的大門彷彿在對遊客招手：快點進來買蛋捲唷！>
+              <img src="../Photo/huwei1/1.jpg"/>
+              </a>
+              <a href="../Photo/huwei1/2.jpg" data-lightbox="models" data-title=偶遇運送甘蔗的火車，非常幸運。>
+              <img src="../Photo/huwei1/2.jpg"/>
+            </a>
+              <a href="../Photo/huwei1/3.jpg" data-lightbox="models" data-title=虎尾驛內部滿滿的木造裝潢，整體看起來更古樸了，可惜還未開放讓遊客能仔細參觀。>
+              <img src="../Photo/huwei1/3.jpg"/>
+            </a>
+              <a href="../Photo/huwei1/4.jpg" data-lightbox="models" data-title=在陽光的沐浴下，火車頭看起來十分耀眼。>
+              <img src="../Photo/huwei1/4.jpg"/>
+            </a>
+              <a href="../Photo/huwei1/5.jpg" data-lightbox="models" data-title=古色古香的建築外觀，悄悄透露歲月走過的痕跡。>
+              <img src="../Photo/huwei1/5.jpg"/>
+            </a>
+              <a href="../Photo/huwei1/6.jpg" data-lightbox="models" data-title=古老的記憶與現代的畫面擦肩而過，彷彿看見時光的腳步匆匆經過。>
+              <img src="../Photo/huwei1/6.jpg"/>
+            </a>
+              <a href="../Photo/huwei1/7.jpg" data-lightbox="models" data-title=火車頭藏在虎尾驛後方的月台，只在課本出現的畫面突然真實在眼前出現，令人驚喜。>
+              <img src="../Photo/huwei1/7.jpg"/>
+            </a>
+              <a href="../Photo/huwei1/8.jpg" data-lightbox="models" data-title=日治時期建立的虎尾車站，還保留著當時的日治風格，需要仔細觀察才能找到具體位置。>
+              <img src="../Photo/huwei1/8.jpg"/>
+            </a>
           </div>
         </div>
         <!-- 照片輪播 -->
@@ -127,5 +129,6 @@
         </div>
       </div>
     </section>
+    <script src="../lightbox-plus-jquery.js"></script>
   </body>
 </html>

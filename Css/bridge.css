@@ -230,6 +230,14 @@
     width:90%;
     height: 90%;
   }
+  /* .contianer{
+    width:"100%";
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+  } */
   .Information .Information-title {
     font-size: 35px;
     font-weight: 600;
