@@ -17,7 +17,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
     />
-    <script src="../Scripts.js"></script>
+    <link rel="stylesheet" href="../Css/lightboxbridge.css">
   </head>
   <body>
     <nav class="NavBar">
@@ -102,26 +102,38 @@
       <div class="Title">
         <div class="Word2">景點之美Photo</div>
         <!-- 中標 -->
-        <div class="gallery">
-          <div id="gallery" class="container-fluid">
-            <img src="../Photo/heart/1.JPG" class="img-responsive" />
-            <img src="../Photo/heart/2.JPG" class="img-responsive" />
-            <img src="../Photo/heart/3.JPG" class="img-responsive" />
-            <img src="../Photo/heart/4.png" class="img-responsive" />
-            <img src="../Photo/heart/5.JPG" class="img-responsive" />
-            <img src="../Photo/heart/6.png" class="img-responsive" />
-            <img src="../Photo/heart/7.JPG" class="img-responsive" />
-            <img src="../Photo/heart/8.jpg" class="img-responsive" />
-            <img src="../Photo/heart/9.JPG" class="img-responsive" />
-          </div>
-
-          <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-body"></div>
-              </div>
-            </div>
+        <div class="contianer">
+          <div class="gallery">
+            <a href="../Photo/heart/1.JPG" data-lightbox="models" data-title=敞開的大門彷彿在對遊客招手：快點進來買蛋捲唷！>
+              <img src="../Photo/heart/1.JPG"/>
+              </a>
+              <a href="../Photo/heart/2.JPG" data-lightbox="models" data-title=偶遇運送甘蔗的火車，非常幸運。>
+              <img src="../Photo/heart/2.JPG"/>
+            </a>
+              <a href="../Photo/heart/3.JPG" data-lightbox="models" data-title=虎尾驛內部滿滿的木造裝潢，整體看起來更古樸了，可惜還未開放讓遊客能仔細參觀。>
+              <img src="../Photo/heart/3.JPG"/>
+            </a>
+              <a href="../Photo/heart/4.jpg" data-lightbox="models" data-title=在陽光的沐浴下，火車頭看起來十分耀眼。>
+              <img src="../Photo/heart/4.jpg"/>
+            </a>
+              <a href="../Photo/heart/5.JPG" data-lightbox="models" data-title=古色古香的建築外觀，悄悄透露歲月走過的痕跡。>
+              <img src="../Photo/heart/5.JPG"/>
+            </a>
+              <a href="../Photo/heart/6.png" data-lightbox="models" data-title=古老的記憶與現代的畫面擦肩而過，彷彿看見時光的腳步匆匆經過。>
+              <img src="../Photo/heart/6.png"/>
+            </a>
+              <a href="../Photo/heart/7.png" data-lightbox="models" data-title=火車頭藏在虎尾驛後方的月台，只在課本出現的畫面突然真實在眼前出現，令人驚喜。>
+              <img src="../Photo/heart/7.png"/>
+            </a>
+              <a href="../Photo/heart/8.JPG" data-lightbox="models" data-title=日治時期建立的虎尾車站，還保留著當時的日治風格，需要仔細觀察才能找到具體位置。>
+              <img src="../Photo/heart/8.JPG"/>
+            </a>
+            <a href="../Photo/heart/9.JPG" data-lightbox="models" data-title=日治時期建立的虎尾車站，還保留著當時的日治風格，需要仔細觀察才能找到具體位置。>
+              <img src="../Photo/heart/9.JPG"/>
+            </a>
+            <a href="../Photo/heart/10.png" data-lightbox="models" data-title=日治時期建立的虎尾車站，還保留著當時的日治風格，需要仔細觀察才能找到具體位置。>
+              <img src="../Photo/heart/10.png"/>
+            </a>
           </div>
         </div>
         <!-- 照片輪播 -->
@@ -157,5 +169,6 @@
         </div>
       </div>
     </section>
+    <script src="../lightbox-plus-jquery.js"></script>
   </body>
 </html>

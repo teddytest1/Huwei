@@ -50,11 +50,11 @@ button:hover{
 .B1{
   border: 0;
   position: absolute;
-  margin-top: 20%;
-  margin-left: 88%;
+  margin-top: -20%;
+  margin-left: 94%;
   background-color:#848484;
   color:#fff;
-  border-radius:10px;
+  border-radius:50px;
   cursor:pointer;
 }
 .B1 a{
