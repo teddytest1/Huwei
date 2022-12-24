@@ -470,6 +470,9 @@
     width:90%;
     height: 90%;
   }
+  .Second{
+    margin-top: -15%;
+  }
   .Forth {
     margin-top: 1600px;
   }
@@ -569,7 +572,7 @@
     width: 90%;
     height: 100%;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 30%;
     display: flex;
     /* border: 2px solid rgb(255, 123, 123); */
   }

@@ -15,6 +15,7 @@ body.lb-disable-scrolling {
 
 .lightbox {
   position: absolute;
+  
   left: 0;
   width: 100%;
   z-index: 10000;
@@ -24,13 +25,15 @@ body.lb-disable-scrolling {
   outline: none;
 }
 
+/* 調整點出相片位置 */
 .lightbox .lb-image {
+  margin-top: 10%;
   display: block;
   height: auto;
   max-width: inherit;
   max-height: none;
   border-radius: 3px;
-
+  
   /* Image border */
   border: 4px solid white;
 }
@@ -183,7 +186,6 @@ body.lb-disable-scrolling {
 
 .lb-data .lb-close {
   display: block;
-  /* margin-top: -82%; */
   float: right;
   width: 30px;
   height: 30px;
@@ -196,7 +198,6 @@ body.lb-disable-scrolling {
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  border: solid 1px rgb(255, 9, 9);
 }
 
 .lb-data .lb-close:hover {
