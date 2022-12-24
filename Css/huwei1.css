@@ -212,6 +212,8 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-family: Microsoft JhengHei;
+    text-align: justify;
   }
   .Content1 {
     /* border: solid 1px black; */
@@ -219,6 +221,8 @@
     padding-left: 0px;
     margin-top: 15%;
     display: flex;
+    font-family: Microsoft JhengHei;
+    text-align: justify;
   }
   .Gallery {
     width: 1200px;

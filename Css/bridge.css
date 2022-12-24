@@ -212,6 +212,8 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-family: Microsoft JhengHei;
+    text-align: justify;
   }
   .Content1 {
     /* border: solid 1px black; */

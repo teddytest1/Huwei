@@ -266,6 +266,8 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-family: Microsoft JhengHei;
+    text-align: justify;
   }
   .Content2{
     /* border: solid 1px rgb(255, 0, 0); */
@@ -439,7 +441,7 @@
   }
 
   .Forth {
-    margin-top: 1600px;
+    margin-top: 1300px;
   }
   .gallery {
     width: 90%;
