@@ -4,3 +4,8 @@ body {
     background-image: url("../Photo/aboutus.jpg");
     background-size: cover;
   }
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
