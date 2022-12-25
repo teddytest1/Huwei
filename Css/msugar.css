@@ -225,12 +225,12 @@
   }
   .Title .T-Photo {
     /* border: solid 1px black; */
-    margin-left: 2%;
+    margin-left: 0%;
   }
   .Title .Content {
     /* 內文字 */
     /* border: solid 1px rgb(255, 0, 0); */
-    margin-top: -16.5%;
+    margin-top: -10.5%;
     margin-left: 40vw;
     width: 55%;
     font-size: 22px;
@@ -256,8 +256,8 @@
     letter-spacing: 1px;
   }
   .Content3 {
-    margin-top: 15%;
-    margin-left: 40vw;
+    margin-top: -2%;
+    margin-left: 7%;
     width: 55%;
     font-size: 22px;
     line-height: 35px;
@@ -595,7 +595,8 @@
   .D1{
     width: 35%;
     height: 50%;
-    margin-left: 3%;
+    margin-left: 0%;
+    margin-top: -7%;
     /* border: 1px solid rgb(0, 0, 0); */
   }
   .D2{
@@ -615,8 +616,8 @@
   .D4{
     width: 35%;
     height: 50%;
-    margin-left: 3%;
-    margin-top: -35%;
+    margin-left: 59%;
+    margin-top: -40%;
     /* border: 1px solid rgb(0, 0, 0); */
   }
 

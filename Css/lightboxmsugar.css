@@ -15,7 +15,6 @@ body.lb-disable-scrolling {
 
 .lightbox {
   position: absolute;
-  
   left: 0;
   width: 100%;
   z-index: 10000;
@@ -27,7 +26,6 @@ body.lb-disable-scrolling {
 
 /* 調整點出相片位置 */
 .lightbox .lb-image {
-  margin-top: 10%;
   display: block;
   height: auto;
   max-width: inherit;
@@ -86,6 +84,7 @@ body.lb-disable-scrolling {
   height: 100%;
   width: 100%;
   z-index: 10;
+
 }
 
 .lb-container > .nav {
