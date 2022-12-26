@@ -446,11 +446,11 @@
   }
 
   .Forth {
-    margin-top: 1300px;
+    margin-top: 1500px;
   }
   .gallery {
     width: 90%;
-    margin-top: -10%;
+    margin-top: 0%;
     margin-left: 0%;
     display: grid;
       grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -458,9 +458,9 @@
   }
   .gallery img{
     width:100%;
-    height: 100%;
+    height: 65%;
   }
-  #G1{
+  /* #G1{
     
     width:100%;
     height: 65%;
@@ -468,11 +468,10 @@
   #G2{
     width:100%;
     height: 65%;
-  }
+  } */
   #G3{
-    margin-top: -120px;
     width:100%;
-    height: 270%;
+    height: 350px;
   }
   /* 整個相片的位置 */
   .contianer{
