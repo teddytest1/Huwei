@@ -67,9 +67,10 @@ button:hover{
 } */
 .B1{
   border: 0;
+  width: 0%;
   position: absolute;
-  margin-top: -20%;
-  margin-left: 94%;
+  margin-top: -15%;
+  margin-left: 95%;
   cursor:pointer;
 }
 .B1 a {
@@ -89,7 +90,7 @@ button:hover{
 		left: 0;
 		bottom: 0;
 		right: 0;
-		background: linear-gradient(135deg, #6e8efb, #a777e3);
+		background: linear-gradient(135deg, #7e7968, #7e7968);
 		border-radius: 4px;
 		transition: box-shadow .5s ease, transform .2s ease; 
 		will-change: transform;
