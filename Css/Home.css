@@ -47,7 +47,7 @@ button:hover{
   color:#848484;
   background-color:#fff;
 }
-.B1{
+/* .B1{
   border: 0;
   position: absolute;
   margin-top: -20%;
@@ -64,4 +64,57 @@ button:hover{
 .B1:hover{
   color:#848484;
   background-color:#fff;
+} */
+.B1{
+  border: 0;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 94%;
+  cursor:pointer;
 }
+.B1 a {
+	position: relative;
+	display: inline-block;
+	padding: 1.2em 2em;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	color: white;
+}
+.B1 a::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: linear-gradient(135deg, #6e8efb, #a777e3);
+		border-radius: 4px;
+		transition: box-shadow .5s ease, transform .2s ease; 
+		will-change: transform;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+		transform:
+			translateY(var(--ty, 0))
+			rotateX(var(--rx, 0))
+			rotateY(var(--ry, 0))
+			translateZ(var(--tz, -12px));
+	}
+	
+	.B1 a:hover::before {
+		box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+	}
+	
+	.B1 a::after {
+		position: relative;
+		display: inline-block;
+		content: attr(data-title);
+		transition: transform .2s ease; 
+		font-weight: bold;
+		letter-spacing: .01em;
+		will-change: transform;
+		transform:
+			translateY(var(--ty, 0))
+			rotateX(var(--rx, 0))
+			rotateY(var(--ry, 0));
+	}
