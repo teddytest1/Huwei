@@ -264,8 +264,8 @@ body {
 }
 .Map {
   position: absolute;
-  width: 500px;
-  height: 350px;
+  width: 60%;
+  height: 45%;
   margin-top: -100px;
   margin-left: 5%;
   /* border: solid 1px black; */
