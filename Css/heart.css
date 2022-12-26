@@ -276,6 +276,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-family: Microsoft JhengHei;
   }
   .Content1 {
     /* border: solid 1px black; */
@@ -291,11 +292,14 @@
     /* border: solid 1px black; */
   }
   .Information {
+    position: absolute;
     /* border: solid 1px black;  */
     width: 700px;
     height: 40px;
+    margin-top: 5vw;
   }
   .Information .Information-title {
+    position: absolute;
     font-size: 35px;
     font-weight: 600;
     margin-left: 5vw;
@@ -315,10 +319,11 @@
     /* border: solid 1px rgb(255, 9, 9); */
   }
   .Map {
+    position: absolute;
     width: 500px;
     height: 350px;
     margin-top: -100px;
-    margin-left: -40.35vw;
+    margin-left: 5%;
     /* border: solid 1px black; */
     padding-bottom: 3%;
     background: url() no-repeat center;

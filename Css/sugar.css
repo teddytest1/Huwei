@@ -224,6 +224,12 @@ body {
   vertical-align: middle;
   /* background: url() no-repeat center; */
 }
+.Word10{
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
 .Title .T-Photo {
   /* border: solid 1px black; */
   margin-left: 2%;
@@ -307,10 +313,11 @@ body {
   /* border: solid 1px rgb(255, 9, 9); */
 }
 .Map {
+  position: absolute;
   width: 500px;
   height: 350px;
   margin-top: -125px;
-  margin-left: -40.35vw;
+  margin-left: 5%;
   /* border: solid 1px black; */
   padding-bottom: 3%;
   background: url() no-repeat center;
@@ -478,7 +485,7 @@ body {
 
 
 .Forth {
-  margin-top: 0px;
+  margin-top: 800px;
 }
 
 

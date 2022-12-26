@@ -259,10 +259,11 @@
     /* border: solid 1px rgb(255, 9, 9); */
   }
   .Map {
+    position: absolute;
     width: 500px;
     height: 350px;
     margin-top: -100px;
-    margin-left: -37.5%;
+    margin-left: 5%;
     /* border: solid 1px black; */
     padding-bottom: 3%;
     background: url() no-repeat center;
@@ -388,7 +389,7 @@
   
   
   .Forth {
-    margin-top:40%;
+    margin-top:35%;
   }
 
   .dropdown {
