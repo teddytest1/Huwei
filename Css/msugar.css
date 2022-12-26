@@ -282,6 +282,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content1 {
     /* 內文字 */
@@ -292,6 +293,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content2 {
     margin-top: 15%;
@@ -300,6 +302,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content3 {
     margin-top: -2%;
@@ -308,6 +311,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content4 {
     /* 內文字 */
@@ -318,6 +322,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content5 {
     margin-top: 15%;
@@ -326,6 +331,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content6 {
     /* 內文字 */
@@ -336,6 +342,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content7 {
     margin-top: 15%;
@@ -344,6 +351,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content8 {
     /* 內文字 */
@@ -354,6 +362,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content9{
     /* border: solid 1px rgb(255, 0, 0); */
@@ -362,6 +371,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Content10{
     /* border: solid 1px rgb(255, 0, 0); */
@@ -370,6 +380,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    text-align:justify;
   }
   .Gallery {
     width: 1200px;
@@ -695,8 +706,8 @@
   .D4{
     width: 35%;
     height: 50%;
-    margin-left: 59%;
-    margin-top: -40%;
+    margin-left: 61%;
+    margin-top: -27%;
     /* border: 1px solid rgb(0, 0, 0); */
   }
 
