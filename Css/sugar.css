@@ -295,10 +295,11 @@ body {
   height: 50px;
 }
 .Information .Information-title {
-  font-size: 22px;
+  font-size: 35px;
   font-weight: 600;
   margin-left: 5vw;
   margin-top: 5vw;
+  font-family: Microsoft JhengHei;
 }
 .Information .Information-content {
   font-weight: 500;
