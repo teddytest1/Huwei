@@ -1,10 +1,10 @@
-// $(document).load(function() { 
-//     $("#status").delay(5000).fadeOut(3000);
-//     $("#preloader").delay(7000).fadeOut(3000);
-// })
+$(window).load(function() { 
+    $("#status").delay(3000).fadeOut(2000);
+    $("#preloader").delay(5000).fadeOut(2000);
+})
 
-$(document).ready(function(){
-    $(window).load(function(){  //load函數
-        $("#status").hide();
-    });
-});
+// $(window).ready(function(){
+//     $(window).load(function(){ 
+//         $("#status").hide();
+//     });
+// });
