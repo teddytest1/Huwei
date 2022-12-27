@@ -8,6 +8,3 @@ $("#dialog-bg").show();//弹出层显示
 });
 });
 
-$("#dialog-bg").on("click",funtion(){
-    $(this).hide();//
-})
