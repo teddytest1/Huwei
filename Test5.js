@@ -1,6 +1,6 @@
 $(window).load(function() { 
-    $("#status").delay(3000).fadeOut(2000);
-    $("#preloader").delay(5000).fadeOut(2000);
+    $("#status").delay(2000).fadeOut(2000);
+    $("#preloader").delay(2500).fadeOut(2000);
 })
 
 // $(window).ready(function(){
