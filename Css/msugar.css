@@ -6,6 +6,10 @@
     font-family: "dick1";
     src: url("../Font/明體.ttf") format("opentype");
   }
+  @font-face {
+    font-family: "dick3";
+    src: url("../Font/GenSenRounded-M.ttf") format("opentype");
+  }
   * {
     margin: 0;
     padding: 0;
@@ -282,6 +286,7 @@
     font-size: 22px;
     line-height: 35px;
     letter-spacing: 1px;
+    font-family: 'dick3';
     text-align:justify;
   }
   .Content1 {
@@ -312,6 +317,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    font-family: 'dick3';
   }
   .Content4 {
     /* 內文字 */
@@ -323,6 +329,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    font-family: 'dick3';
   }
   .Content5 {
     margin-top: 15%;
@@ -332,6 +339,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    font-family: 'dick3';
   }
   .Content6 {
     /* 內文字 */
@@ -343,6 +351,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    font-family: 'dick3';
   }
   .Content7 {
     margin-top: 15%;
@@ -352,6 +361,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    font-family: 'dick3';
   }
   .Content8 {
     /* 內文字 */
@@ -363,6 +373,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    font-family: 'dick3';
   }
   .Content9{
     /* border: solid 1px rgb(255, 0, 0); */
@@ -372,7 +383,8 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
-    font-family: Microsoft JhengHei;
+    font-family: 'dick3';
+
   }
   .Content10{
     /* border: solid 1px rgb(255, 0, 0); */

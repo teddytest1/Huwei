@@ -6,6 +6,10 @@
   font-family: "dick1";
   src: url("../Font/明體.ttf") format("opentype");
 }
+@font-face {
+  font-family: "dick3";
+  src: url("../Font/GenSenRounded-M.ttf") format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -249,7 +253,7 @@ body {
   font-size: 22px;
   line-height: 35px;
   letter-spacing: 1px;
-  font-family: Microsoft JhengHei;
+  font-family: 'dick3';
     text-align: justify;
 }
 .Content1 {
@@ -280,7 +284,7 @@ body {
   font-size: 22px;
   line-height: 35px;
   letter-spacing: 1px;
-  font-family: Microsoft JhengHei;
+  font-family: 'dick3';
     text-align: justify;
 }
 .Gallery {
