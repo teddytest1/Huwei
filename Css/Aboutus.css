@@ -9,3 +9,10 @@ body {
     padding: 0;
     text-decoration: none;
   }
+  .Home{
+    margin-top: 1.5%;
+    margin-left: 3%;
+  }
+  .Home a :hover{
+    scale: 1.1;
+  }
