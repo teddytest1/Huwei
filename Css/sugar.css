@@ -255,6 +255,7 @@ body {
   letter-spacing: 1px;
   font-family: 'dick3';
     text-align: justify;
+    color: #343A40;
 }
 .Content1 {
   /* border: solid 1px black; */
@@ -286,6 +287,7 @@ body {
   letter-spacing: 1px;
   font-family: 'dick3';
     text-align: justify;
+    color: #343A40;
 }
 .Gallery {
   width: 1200px;

@@ -177,6 +177,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20%;
+    color: #20262E;
   }
   .Title1{
     /* border: solid 1px black; */
@@ -186,6 +187,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 27%;
+    
   }
   .Title .Word {
     position: absolute;
@@ -210,6 +212,7 @@
     font-weight: 600;
     margin-left: 5vw;
     margin-top: 75%;
+    
     /* background: url() no-repeat center; */
   }
   .Word7{
@@ -226,6 +229,7 @@
     margin-left: 23%;
     font-family: 'dick3';
     /* border: solid 1px black; */
+    color: #20262E;
   }
   .Word6{
     font-size: 2.5em;
@@ -240,6 +244,7 @@
     margin-top: 0%;
     margin-left: 3%;
     font-family: 'dick3';
+    color: #20262E;
     /* border: solid 1px black; */
   }
   .Word5{
@@ -252,9 +257,9 @@
     font-family: "dick1";
   }
   .Word3 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 600;
-    margin-top: 21%;
+    margin-top: 20.5%;
     vertical-align: middle;
     /* background: url() no-repeat center; */
   }
@@ -274,6 +279,22 @@
     letter-spacing: 1px;
     font-family: 'dick3';
     text-align: justify;
+    /* color: #20262E; */
+    color: #F0A500;
+  }.Title .Contentt {
+    /* 內文字 */
+    /* border: solid 1px rgb(255, 0, 0); */
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 40vw;
+    width: 55%;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: 'dick3';
+    text-align: justify;
+    /* color: #20262E; */
+    color: #ad8a1f;
   }
   .Content2{
     /* border: solid 1px rgb(255, 0, 0); */
@@ -283,6 +304,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     font-family: 'dick3';
+    color: #20262E;
   }
   .Content1 {
     /* border: solid 1px black; */

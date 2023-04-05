@@ -288,6 +288,8 @@
     letter-spacing: 1px;
     font-family: 'dick3';
     text-align:justify;
+    color: #20262E;
+    /* color: #20262E; */
   }
   .Content1 {
     /* 內文字 */
@@ -299,6 +301,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    
   }
   .Content2 {
     margin-top: 15%;
@@ -308,6 +311,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    
   }
   .Content3 {
     margin-top: -2%;
@@ -318,6 +322,7 @@
     letter-spacing: 1px;
     text-align:justify;
     font-family: 'dick3';
+    color: #20262E;
   }
   .Content4 {
     /* 內文字 */
@@ -330,6 +335,7 @@
     letter-spacing: 1px;
     text-align:justify;
     font-family: 'dick3';
+    color: #20262E;
   }
   .Content5 {
     margin-top: 15%;
@@ -340,6 +346,7 @@
     letter-spacing: 1px;
     text-align:justify;
     font-family: 'dick3';
+    color: #20262E;
   }
   .Content6 {
     /* 內文字 */
@@ -352,6 +359,7 @@
     letter-spacing: 1px;
     text-align:justify;
     font-family: 'dick3';
+    color: #20262E;
   }
   .Content7 {
     margin-top: 15%;
@@ -362,6 +370,7 @@
     letter-spacing: 1px;
     text-align:justify;
     font-family: 'dick3';
+    color: #20262E;
   }
   .Content8 {
     /* 內文字 */
@@ -374,6 +383,7 @@
     letter-spacing: 1px;
     text-align:justify;
     font-family: 'dick3';
+    color: #20262E;
   }
   .Content9{
     /* border: solid 1px rgb(255, 0, 0); */
@@ -384,7 +394,7 @@
     letter-spacing: 1px;
     text-align:justify;
     font-family: 'dick3';
-
+    color: #20262E;
   }
   .Content10{
     /* border: solid 1px rgb(255, 0, 0); */
@@ -394,6 +404,7 @@
     line-height: 35px;
     letter-spacing: 1px;
     text-align:justify;
+    
   }
   .Gallery {
     width: 1200px;

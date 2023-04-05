@@ -23,7 +23,7 @@ body{
   position: relative;
   margin-left: 40%;
   width:50%;
-  height: 50%;
+  height: 80%;
   /* border: solid 1px white; */
 }
 .LogoBtn:hover{
@@ -123,3 +123,10 @@ button:hover{
 			rotateX(var(--rx, 0))
 			rotateY(var(--ry, 0));
 	}
+  /* .adc{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    margin-left: 150px;
+    border: solid 15px rgb(0, 0, 0);
+  } */
