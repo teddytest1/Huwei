@@ -158,11 +158,11 @@ body::-webkit-scrollbar {
 .map{
   position: relative;
   width: 1400px;
-  height: 1100px;
+  height: 800px;
   /* border: solid 1px rgb(0, 0, 0); */
   background-image: url("../Photo/street3.png");
   background-size: cover;
-  margin-top: -4%;
+  margin-top: 6%;
   margin-right: 2%;
   background-position: center center
 }
@@ -170,7 +170,7 @@ body::-webkit-scrollbar {
   width: 220px;
   height: 220px;
   margin-left: 60%;
-  margin-top: 60%;
+  margin-top: 40%;
 }
 .Pbtn1:hover{
   scale: 1.1;
