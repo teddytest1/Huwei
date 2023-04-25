@@ -152,9 +152,9 @@
     text-align: center;
   }
   .Photo {
-    /* border: solid 1px black;  */
+    /* border: solid 1px rgb(247, 27, 27);  */
     padding-bottom: 1%;
-    margin-top: 15%;
+    margin-top: -6%;
     margin-left: 0%;
   }
   .Words {
@@ -397,14 +397,15 @@
     color: #20262E;
   }
   .Content10{
-    /* border: solid 1px rgb(255, 0, 0); */
-    margin-left: 3%;
-    max-width: 1245px;
-    font-size: 22px;
-    line-height: 35px;
-    letter-spacing: 1px;
-    text-align:justify;
-    
+   /* border: solid 1px rgb(255, 0, 0); */
+   margin: auto;
+   max-width: 500px;
+   font-size: 30px;
+   line-height: 35px;
+   letter-spacing: 1px;
+   text-align:justify;
+   font-family: 'dick3';
+   color: #20262E;
   }
   .Gallery {
     width: 1200px;
@@ -576,6 +577,7 @@
   }
  
   .gallery {
+    width: 1600px;
     margin-left: 5%;
     display: grid;
       grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
@@ -583,6 +585,17 @@
   }
   .gallery img{
     width:90%;
+    height: 90%;
+  }
+  .gallery1 {
+    width: 1565px;
+    margin-left: 5%;
+    display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(320px,2fr));
+      grid-gap: 30px;
+  }
+  .gallery1 img{
+    width:75%;
     height: 90%;
   }
   .Second{
@@ -685,7 +698,7 @@
   .vbox {
     position: relative;
     width: 90%;
-    height: 100%;
+    height: 50%;
     margin: auto;
     margin-top: 10%;
     display: flex;
@@ -777,9 +790,9 @@
   
   .heart {
     margin-left: 5%;
-    margin-top: 20%;
+    margin-top: 10%;
     width: 1300px;
-    height: 750px;
+    height: 850px;
     border: 21px solid;
     border-color:transparent ;
     /* border-image: var(--url) 21 round; */
@@ -793,3 +806,6 @@
     border-image-slice: 30%;  
     border-image-width: 20px;  
   }
+  .H10{
+    margin-top: 10%;
+}
