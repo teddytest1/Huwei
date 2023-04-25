@@ -12,6 +12,7 @@ body {
   .Home{
     margin-top: 1.5%;
     margin-left: 3%;
+    font-size: 1px;
   }
   .Home a :hover{
     scale: 1.1;
