@@ -355,7 +355,7 @@
     width: 500px;
     height: 350px;
     margin-top: -450px;
-    margin-left: 45%;
+    margin-left: 40%;
     /* border: solid 1px black; */
     padding-bottom: 3%;
     background: url() no-repeat center;
@@ -634,7 +634,7 @@
   width: 200px;
   height: 200px;
   margin-top: -70%;
-  margin-left: 57.5%;
+  margin-left: 67.5%;
 }
 .Pbtn2:hover{
   scale: 1.1;
