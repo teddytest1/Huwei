@@ -530,3 +530,9 @@ z-index: 9998;
 .Pbtn5:hover{
   scale: 1.1;
 }
+.Pbtn{
+  scale: 1.1;
+}
+#P6:hover{
+  scale: 1.1;
+}
